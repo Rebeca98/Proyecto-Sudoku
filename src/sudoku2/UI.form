@@ -889,11 +889,11 @@
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jTextField63" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I7" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextField62" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I8" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextField61" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I9" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -914,9 +914,9 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTextField63" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                          <Component id="jTextField61" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                          <Component id="jTextField62" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I7" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I9" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I8" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="14" max="32767" attributes="0"/>
                   </Group>
@@ -960,19 +960,19 @@
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField61">
+            <Component class="javax.swing.JTextField" name="I9">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField62">
+            <Component class="javax.swing.JTextField" name="I8">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField63">
+            <Component class="javax.swing.JTextField" name="I7">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
@@ -1012,11 +1012,11 @@
                       <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="jTextField72" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I4" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextField71" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I5" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextField70" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I6" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -1037,9 +1037,9 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="jTextField72" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                          <Component id="jTextField70" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                          <Component id="jTextField71" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I4" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I6" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I5" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="0" pref="14" max="32767" attributes="0"/>
                   </Group>
@@ -1083,19 +1083,19 @@
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField70">
+            <Component class="javax.swing.JTextField" name="I6">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField71">
+            <Component class="javax.swing.JTextField" name="I5">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField72">
+            <Component class="javax.swing.JTextField" name="I4">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
@@ -1132,11 +1132,11 @@
                       <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <Component id="J1" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I1" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextField80" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I2" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jTextField79" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="I3" min="-2" pref="50" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -1157,9 +1157,9 @@
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="J1" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                          <Component id="jTextField79" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
-                          <Component id="jTextField80" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I1" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I3" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          <Component id="I2" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                   </Group>
@@ -1203,19 +1203,19 @@
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField79">
+            <Component class="javax.swing.JTextField" name="I3">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="jTextField80">
+            <Component class="javax.swing.JTextField" name="I2">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="J1">
+            <Component class="javax.swing.JTextField" name="I1">
               <Properties>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="text" type="java.lang.String" value="0"/>
