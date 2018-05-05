@@ -5,6 +5,11 @@
  */
 package sudoku2;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.JTextField;
+
+
 /**
  *
  * @author AMARTINECI
@@ -142,22 +147,55 @@ public class UI extends javax.swing.JFrame {
 
         A1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A1.setText("0");
+        A1.setName("A1"); // NOI18N
+        A1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         A3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A3.setText("0");
+        A3.setName("A3"); // NOI18N
+        A3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         A2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A2.setText("0");
         A2.setToolTipText("");
+        A2.setName("A2"); // NOI18N
+        A2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B3.setText("0");
+        B3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B2.setText("0");
+        B2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B1.setText("0");
+        B1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         C3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C3.setText("0");
@@ -218,12 +256,27 @@ public class UI extends javax.swing.JFrame {
 
         A7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A7.setText("0");
+        A7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         A9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A9.setText("0");
+        A9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         A8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A8.setText("0");
+        A8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B9.setText("0");
@@ -294,12 +347,27 @@ public class UI extends javax.swing.JFrame {
 
         A4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A4.setText("0");
+        A4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         A6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A6.setText("0");
+        A6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         A5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A5.setText("0");
+        A5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B6.setText("0");
@@ -309,12 +377,22 @@ public class UI extends javax.swing.JFrame {
 
         B4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B4.setText("0");
+        B4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         C6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C6.setText("0");
 
         C5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C5.setText("0");
+        C5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnClicked(evt);
+            }
+        });
 
         C4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C4.setText("0");
@@ -908,6 +986,18 @@ public class UI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void btnClicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClicked
+        
+    }//GEN-LAST:event_btnClicked
+
+    private void squareModified(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_squareModified
+        System.out.println("Some success");
+        JTextField temp = (JTextField) evt.getSource(); 
+        System.out.println("Se cliqueo" + temp.getName());
+        
+        //TODO: Usar HashMap para encontrar objeto cuadro correspondiente y llamar sus metodos asi 
+    }//GEN-LAST:event_squareModified
+
     /**
      * @param args the command line arguments
      */
@@ -942,6 +1032,12 @@ public class UI extends javax.swing.JFrame {
             }
         });
     }
+    
+
+    
+    
+
+    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField A1;
@@ -1040,4 +1136,8 @@ public class UI extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     // End of variables declaration//GEN-END:variables
+
+
+
+
 }
