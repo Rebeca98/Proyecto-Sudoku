@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sudoku2.EstructurasSoporte;
+package sudoku2;
 
+import sudoku2.ArrayIterator;
 import java.util.*;
 
 public class ArraySet<T> implements SetADT<T> {
@@ -166,5 +167,51 @@ public class ArraySet<T> implements SetADT<T> {
       larger[index] = contSet[index];
     
     contSet = larger;
+  }
+
+    /**
+     * Metodo que hace la operacion de diferencia entre conjuntos
+     * @param oSet: el set con el cual se hace la diferencia
+     * @return nuevo set con la diferencia
+     */
+    @Override
+    public SetADT<T> difference(SetADT<T> oSet) {
+
+    ArraySet<T> AdiffB = new ArraySet<>(); 
+    Iterator<T> iter= oSet.iterator();
+    T element;
+    
+    while (iter.hasNext()) {
+      element = iter.next();
+      
+      //Si el elemento en oSet no esta en este set, se añade a la diferencia 
+      if (!this.contains(element)){
+          AdiffB.add(element);
+      }
+    }
+    
+    return AdiffB; 
+    }
+
+  @Override
+  public SetADT<T> intersect(SetADT<T>... oSets) {
+        ArraySet<T> intersectFinal = new ArraySet<>();
+
+        for (SetADT<T> curSet : oSets){
+          Iterator<T> iter = curSet.iterator();
+          T element;
+
+          while (iter.hasNext()){
+              element=iter.next();
+
+              if (this.contains(element)){
+                  //Se agrega el elemento solo si existe en ambos conjuntos
+                  intersectFinal.add(element);
+              }
+          }
+
+        }
+
+    return intersectFinal;
   }
 }

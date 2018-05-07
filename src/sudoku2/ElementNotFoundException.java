@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sudoku2.EstructurasSoporte;
+package sudoku2;
 
 public class ElementNotFoundException extends RuntimeException {
    /** Sets up this exception with an appropriate message.

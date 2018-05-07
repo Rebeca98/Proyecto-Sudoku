@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package sudoku2.EstructurasSoporte;
+package sudoku2;
 
 import java.util.Iterator;
 
@@ -40,4 +40,7 @@ public interface SetADT<T>{
   
   public Iterator<T> iterator();
 
+  public SetADT<T> difference(SetADT<T> oSet);
+
+  public SetADT<T> intersect(SetADT<T>... oSets);
 }
