@@ -991,9 +991,9 @@ public class UI extends javax.swing.JFrame {
     }//GEN-LAST:event_btnClicked
 
     private void squareModified(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_squareModified
-        System.out.println("Some success");
+        System.out.println("Area de prueba");
         JTextField temp = (JTextField) evt.getSource(); 
-        System.out.println("Se cliqueo" + temp.getName());
+        System.out.println("Se cliqueo " + temp.getName());
         
         //TODO: Usar HashMap para encontrar objeto cuadro correspondiente y llamar sus metodos asi 
     }//GEN-LAST:event_squareModified
