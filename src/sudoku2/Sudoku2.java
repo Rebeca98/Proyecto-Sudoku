@@ -18,5 +18,7 @@ public class Sudoku2 {
         // TODO code application logic here
         UI.main(args); 
     }
+
+    //TODO: Aqui va toda el area de setup. Creación de la matriz de objetos cuadro, so on.
     
 }

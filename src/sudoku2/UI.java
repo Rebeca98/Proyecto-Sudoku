@@ -7,6 +7,7 @@ package sudoku2;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
 import javax.swing.JTextField;
 
 
@@ -15,12 +16,24 @@ import javax.swing.JTextField;
  * @author AMARTINECI
  */
 public class UI extends javax.swing.JFrame {
+    HashMap<String, SudoCuadro> dictMap = new HashMap<String, SudoCuadro>();
 
     /**
      * Creates new form UI
+     * TODO: Inicializar hashmap con cuadros selectos.
      */
     public UI() {
         initComponents();
+
+        //LLenando el hashmap
+        char first = 'A';
+        String fullname;
+        for (int letra=0; letra<26;letra++){
+            for(int num=0; num<9; num++){
+                fullname = String.valueOf(first) + String.valueOf(num);
+            }
+            first++; 
+        }
     }
 
     /**
@@ -995,7 +1008,9 @@ public class UI extends javax.swing.JFrame {
         JTextField temp = (JTextField) evt.getSource(); 
         System.out.println("Se cliqueo " + temp.getName());
         
-        //TODO: Usar HashMap para encontrar objeto cuadro correspondiente y llamar sus metodos asi 
+        //TODO: Usar HashMap para encontrar objeto cuadro correspondiente y llamar sus metodos asi
+
+
     }//GEN-LAST:event_squareModified
 
     /**

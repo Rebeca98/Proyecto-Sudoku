@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dbb03e8-d9a7-4d55-9912-2219026048ab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/EstructurasSoporte/ArrayIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/ArrayIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/EstructurasSoporte/ArraySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/ArraySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/EstructurasSoporte/ElementNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/ElementNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/EstructurasSoporte/EmptyCollectionException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/EmptyCollectionException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/EstructurasSoporte/SetADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/SetADT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/SudoCuadro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/SudoCuadro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku2/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/UI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SudoCuadro.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SudoCuadro.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+            <state relative-caret-position="711">
+              <caret line="61" column="62" lean-forward="true" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -49,6 +42,27 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Sudoku2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UI.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="410">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <folding>
+                <element signature="e#466#486#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -60,6 +74,8 @@
         <option value="$PROJECT_DIR$/src/sudoku2/SetADT.java" />
         <option value="$PROJECT_DIR$/src/sudoku2/ArraySet.java" />
         <option value="$PROJECT_DIR$/src/sudoku2/SudoCuadro.java" />
+        <option value="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" />
+        <option value="$PROJECT_DIR$/src/sudoku2/UI.java" />
       </list>
     </option>
   </component>
@@ -220,6 +236,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="61" column="62" lean-forward="true" selection-start-line="61" selection-start-column="62" selection-end-line="61" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/ArraySet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="686">
@@ -227,10 +250,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="391">
+          <caret line="21" column="90" selection-start-line="21" selection-start-column="90" selection-end-line="21" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#466#486#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
