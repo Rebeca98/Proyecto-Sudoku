@@ -38,13 +38,16 @@ public class SudoCuadro {
      * @param col: Referencia a objeto estatico recibida de objeto creado en setup 
      * @param square: Referencia a objeto estatico recibida de objeto creado en setup 
      */
-    public SudoCuadro(SetADT<Integer> row, SetADT<Integer> col, SetADT<Integer> square) {
+    public SudoCuadro(SetADT<Integer> row, SetADT<Integer> col) {
         this.row = row;
         this.col = col;
-        this.square = square;
         
         this.markup = new ArraySet<>();
         this.poblrarRef();
+    }
+    
+    public void assignBigSquare(SetADT<Integer> bigSquare){
+        this.square = bigSquare; 
     }
     
     /**

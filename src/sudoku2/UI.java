@@ -16,7 +16,9 @@ import javax.swing.JTextField;
  * @author AMARTINECI
  */
 public class UI extends javax.swing.JFrame {
+    
     HashMap<String, SudoCuadro> dictMap = new HashMap<String, SudoCuadro>();
+    //FixMe: Might not work 
 
     /**
      * Creates new form UI
@@ -1040,35 +1042,7 @@ public class UI extends javax.swing.JFrame {
     }
     
 
-    private void sudokuSetup(){
-        //Creando sets de row
-        ArraySet<Integer>[] columnas = (ArraySet<Integer>[]) new Object[10];
-        for(int col=0; col<9; col++){
-            columnas[col] = new ArraySet<>();
-        }
 
-        //Creando sets de col
-        ArraySet<Integer>[] rows = (ArraySet<Integer>[]) new Object[10];
-        for(int row=0; row<9; row++){
-            rows[row] = new ArraySet<>();
-        }
-
-        //Creando squares manualmente
-
-
-
-        //LLenando el hashmap
-        char first = 'A';
-        String fullname;
-        for (int letra=0; letra<26;letra++){
-            for(int num=0; num<9; num++){
-                fullname = String.valueOf(first) + String.valueOf(num);
-
-                //dictMap.put(fullname, new objeto cuadro inicializable con row, col etc...
-            }
-            first++;
-        }
-    }
     
     //Easter egg - Huehuehue
 
