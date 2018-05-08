@@ -9,6 +9,7 @@ import sudoku2.ArrayIterator;
 import java.util.*;
 
 public class ArraySet<T> implements SetADT<T> {
+  private  String name;
   private static Random rand = new Random();
   private final int DEFAULT_CAPACITY = 100;
   private final int NOT_FOUND = -1;
@@ -21,6 +22,18 @@ public class ArraySet<T> implements SetADT<T> {
   public ArraySet() {
     count = 0;
     contSet = (T[])(new Object[DEFAULT_CAPACITY]);
+
+    this.name = name;
+  }
+
+  /**
+   * Creates an empty set using the default capacity.
+   */
+  public ArraySet(String name) {
+    count = 0;
+    contSet = (T[])(new Object[DEFAULT_CAPACITY]);
+
+    this.name = name;
   }
   
   /**
@@ -177,7 +190,7 @@ public class ArraySet<T> implements SetADT<T> {
     @Override
     public SetADT<T> difference(SetADT<T> oSet) {
 
-    ArraySet<T> AdiffB = new ArraySet<>(); 
+    ArraySet<T> AdiffB = new ArraySet<T>();
     Iterator<T> iter= oSet.iterator();
     T element;
     
