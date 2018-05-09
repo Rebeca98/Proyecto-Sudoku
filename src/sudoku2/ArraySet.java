@@ -227,4 +227,11 @@ public class ArraySet<T> implements SetADT<T> {
 
     return intersectFinal;
   }
+
+  @Override
+  public String toString() {
+    return "ArraySet{" +
+            "name='" + name + '\'' +
+            '}';
+  }
 }

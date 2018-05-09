@@ -35,8 +35,7 @@ public class SudoCuadro {
     /**
      * Constructor. Recibe referencias a conjuntos row,col,square y crea a markup
      * @param row: Referencia a objeto estatico recibida de objeto creado en setup 
-     * @param col: Referencia a objeto estatico recibida de objeto creado en setup 
-     * @param square: Referencia a objeto estatico recibida de objeto creado en setup 
+     * @param col: Referencia a objeto estatico recibida de objeto creado en setup
      */
     public SudoCuadro(SetADT<Integer> row, SetADT<Integer> col) {
         this.row = row;
@@ -71,9 +70,13 @@ public class SudoCuadro {
             this.conjRef.add(i);
         }
     }
-    
-    
-    
-    
-    
+
+    @Override
+    public String toString() {
+        return "Cuadro:{" +
+                "row=" + row.toString() +
+                ", col=" + col.toString() +
+                ", square=" + square.toString() +
+                '}';
+    }
 }

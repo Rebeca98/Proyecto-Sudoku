@@ -65,10 +65,11 @@ public class Sudoku2 {
 
                 System.out.println(fullname);
                 //Creando objeto y guardándolo en hashmap
-                dictMap.put(fullname, new SudoCuadro((SetADT<Integer>) rows[letra], (SetADT<Integer>) columnas[num]));
+                dictMap.put(fullname, new SudoCuadro( (SetADT<Integer>) rows[letra], (SetADT<Integer>) columnas[num])) ;
 
                 //Contenedor temporal
                 SudoCuadro tempCuadro = dictMap.get(fullname);
+
 
                 matrizMaestra[letra][num] = tempCuadro;
 
@@ -98,6 +99,8 @@ public class Sudoku2 {
                         tempCuadro.assignBigSquare(iota);
                     }
                 }
+
+                System.out.println(tempCuadro.toString());
             }
             first++;
         }
