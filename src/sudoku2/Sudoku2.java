@@ -104,7 +104,7 @@ public class Sudoku2 {
 
                 System.out.println(tempCuadro.toString());
             }
-            //Incrementa el contador de char para obtener la siguiente letra del alfabeto. 
+            //Incrementa el contador de char para obtener la siguiente letra del alfabeto.
             first++;
         }
     }

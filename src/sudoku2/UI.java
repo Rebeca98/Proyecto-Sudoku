@@ -16,7 +16,7 @@ import javax.swing.JTextField;
  * @author AMARTINECI
  */
 public class UI extends javax.swing.JFrame {
-
+    HashMap<String, SudoCuadro> dictMap = new HashMap<String, SudoCuadro>();
 
     /**
      * Creates new form UI
@@ -25,6 +25,15 @@ public class UI extends javax.swing.JFrame {
     public UI() {
         initComponents();
 
+        //LLenando el hashmap
+        char first = 'A';
+        String fullname;
+        for (int letra=0; letra<26;letra++){
+            for(int num=0; num<9; num++){
+                fullname = String.valueOf(first) + String.valueOf(num);
+            }
+            first++; 
+        }
     }
 
     /**
@@ -179,6 +188,7 @@ public class UI extends javax.swing.JFrame {
 
         B3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B3.setText("0");
+        B3.setName("B3"); // NOI18N
         B3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -187,6 +197,7 @@ public class UI extends javax.swing.JFrame {
 
         B2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B2.setText("0");
+        B2.setName("B2"); // NOI18N
         B2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -195,6 +206,7 @@ public class UI extends javax.swing.JFrame {
 
         B1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B1.setText("0");
+        B1.setName("B1"); // NOI18N
         B1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -203,12 +215,30 @@ public class UI extends javax.swing.JFrame {
 
         C3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C3.setText("0");
+        C3.setName("C3"); // NOI18N
+        C3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         C2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C2.setText("0");
+        C2.setName("C2"); // NOI18N
+        C2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         C1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C1.setText("0");
+        C1.setName("C1"); // NOI18N
+        C1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -260,6 +290,7 @@ public class UI extends javax.swing.JFrame {
 
         A7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A7.setText("0");
+        A7.setName("A7"); // NOI18N
         A7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -268,6 +299,7 @@ public class UI extends javax.swing.JFrame {
 
         A9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A9.setText("0");
+        A9.setName("A9"); // NOI18N
         A9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -276,6 +308,7 @@ public class UI extends javax.swing.JFrame {
 
         A8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A8.setText("0");
+        A8.setName("A8"); // NOI18N
         A8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -284,21 +317,57 @@ public class UI extends javax.swing.JFrame {
 
         B9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B9.setText("0");
+        B9.setName("B9"); // NOI18N
+        B9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B8.setText("0");
+        B8.setName("B8"); // NOI18N
+        B8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B7.setText("0");
+        B7.setName("B7"); // NOI18N
+        B7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         C9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C9.setText("0");
+        C9.setName("C9"); // NOI18N
+        C9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         C8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C8.setText("0");
+        C8.setName("C8"); // NOI18N
+        C8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         C7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C7.setText("0");
+        C7.setName("C7"); // NOI18N
+        C7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -351,6 +420,7 @@ public class UI extends javax.swing.JFrame {
 
         A4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A4.setText("0");
+        A4.setName("A4"); // NOI18N
         A4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -359,6 +429,7 @@ public class UI extends javax.swing.JFrame {
 
         A6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A6.setText("0");
+        A6.setName("A6"); // NOI18N
         A6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -367,6 +438,7 @@ public class UI extends javax.swing.JFrame {
 
         A5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A5.setText("0");
+        A5.setName("A5"); // NOI18N
         A5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -375,12 +447,25 @@ public class UI extends javax.swing.JFrame {
 
         B6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B6.setText("0");
+        B6.setName("B6"); // NOI18N
+        B6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B5.setText("0");
+        B5.setName("B5"); // NOI18N
+        B5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         B4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B4.setText("0");
+        B4.setName("B4"); // NOI18N
         B4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -389,17 +474,30 @@ public class UI extends javax.swing.JFrame {
 
         C6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C6.setText("0");
+        C6.setName("C6"); // NOI18N
+        C6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         C5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C5.setText("0");
+        C5.setName("C5"); // NOI18N
         C5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnClicked(evt);
+                squareModified(evt);
             }
         });
 
         C4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C4.setText("0");
+        C4.setName("C4"); // NOI18N
+        C4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -452,30 +550,84 @@ public class UI extends javax.swing.JFrame {
 
         D7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D7.setText("0");
+        D7.setName("D7"); // NOI18N
+        D7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         D9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D9.setText("0");
+        D9.setName("D9"); // NOI18N
+        D9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         D8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D8.setText("0");
+        D8.setName("D8"); // NOI18N
+        D8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E9.setText("0");
+        E9.setName("E9"); // NOI18N
+        E9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E8.setText("0");
+        E8.setName("E8"); // NOI18N
+        E8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E7.setText("0");
+        E7.setName("E7"); // NOI18N
+        E7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F9.setText("0");
+        F9.setName("F9"); // NOI18N
+        F9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F8.setText("0");
+        F8.setName("F8"); // NOI18N
+        F8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F7.setText("0");
+        F7.setName("F7"); // NOI18N
+        F7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -528,30 +680,84 @@ public class UI extends javax.swing.JFrame {
 
         D4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D4.setText("0");
+        D4.setName("D4"); // NOI18N
+        D4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         D6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D6.setText("0");
+        D6.setName("D6"); // NOI18N
+        D6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         D5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D5.setText("0");
+        D5.setName("D5"); // NOI18N
+        D5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E6.setText("0");
+        E6.setName("E6"); // NOI18N
+        E6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E5.setText("0");
+        E5.setName("E5"); // NOI18N
+        E5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E4.setText("0");
+        E4.setName("E4"); // NOI18N
+        E4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F6.setText("0");
+        F6.setName("F6"); // NOI18N
+        F6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F5.setText("0");
+        F5.setName("F5"); // NOI18N
+        F5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F4.setText("0");
+        F4.setName("F4"); // NOI18N
+        F4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -604,30 +810,84 @@ public class UI extends javax.swing.JFrame {
 
         D1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D1.setText("0");
+        D1.setName("D1"); // NOI18N
+        D1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         D3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D3.setText("0");
+        D3.setName("D3"); // NOI18N
+        D3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         D2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D2.setText("0");
+        D2.setName("D2"); // NOI18N
+        D2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E3.setText("0");
+        E3.setName("E3"); // NOI18N
+        E3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E2.setText("0");
+        E2.setName("E2"); // NOI18N
+        E2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         E1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E1.setText("0");
+        E1.setName("E1"); // NOI18N
+        E1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F3.setText("0");
+        F3.setName("F3"); // NOI18N
+        F3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F2.setText("0");
+        F2.setName("F2"); // NOI18N
+        F2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         F1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F1.setText("0");
+        F1.setName("F1"); // NOI18N
+        F1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -679,30 +939,84 @@ public class UI extends javax.swing.JFrame {
 
         G7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G7.setText("0");
+        G7.setName("G7"); // NOI18N
+        G7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         G9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G9.setText("0");
+        G9.setName("G9"); // NOI18N
+        G9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         G8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G8.setText("0");
+        G8.setName("G8"); // NOI18N
+        G8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H9.setText("0");
+        H9.setName("H9"); // NOI18N
+        H9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H8.setText("0");
+        H8.setName("H8"); // NOI18N
+        H8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H7.setText("0");
+        H7.setName("H7"); // NOI18N
+        H7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I9.setText("0");
+        I9.setName("I9"); // NOI18N
+        I9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I8.setText("0");
+        I8.setName("I8"); // NOI18N
+        I8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I7.setText("0");
+        I7.setName("I7"); // NOI18N
+        I7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -755,30 +1069,84 @@ public class UI extends javax.swing.JFrame {
 
         G4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G4.setText("0");
+        G4.setName("G4"); // NOI18N
+        G4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         G6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G6.setText("0");
+        G6.setName("G6"); // NOI18N
+        G6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         G5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G5.setText("0");
+        G5.setName("G5"); // NOI18N
+        G5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H6.setText("0");
+        H6.setName("H6"); // NOI18N
+        H6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H5.setText("0");
+        H5.setName("H5"); // NOI18N
+        H5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H4.setText("0");
+        H4.setName("H4"); // NOI18N
+        H4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I6.setText("0");
+        I6.setName("I6"); // NOI18N
+        I6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I5.setText("0");
+        I5.setName("I5"); // NOI18N
+        I5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I4.setText("0");
+        I4.setName("I4"); // NOI18N
+        I4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -831,30 +1199,84 @@ public class UI extends javax.swing.JFrame {
 
         G1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G1.setText("0");
+        G1.setName("G1"); // NOI18N
+        G1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         G3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G3.setText("0");
+        G3.setName("G3"); // NOI18N
+        G3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         G2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G2.setText("0");
+        G2.setName("G2"); // NOI18N
+        G2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H3.setText("0");
+        H3.setName("H3"); // NOI18N
+        H3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H2.setText("0");
+        H2.setName("H2"); // NOI18N
+        H2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         H1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H1.setText("0");
+        H1.setName("H1"); // NOI18N
+        H1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I3.setText("0");
+        I3.setName("I3"); // NOI18N
+        I3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I2.setText("0");
+        I2.setName("I2"); // NOI18N
+        I2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         I1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I1.setText("0");
+        I1.setName("I1"); // NOI18N
+        I1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                squareModified(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -990,18 +1412,12 @@ public class UI extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void btnClicked(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnClicked
-        
-    }//GEN-LAST:event_btnClicked
-
     private void squareModified(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_squareModified
         System.out.println("Area de prueba");
         JTextField temp = (JTextField) evt.getSource(); 
         System.out.println("Se cliqueo " + temp.getName());
         
         //TODO: Usar HashMap para encontrar objeto cuadro correspondiente y llamar sus metodos asi
-        String pruebaCool = Sudoku2.dictMap.get(temp.getName()).toString();
-        System.out.println(pruebaCool);
 
 
     }//GEN-LAST:event_squareModified
@@ -1040,7 +1456,10 @@ public class UI extends javax.swing.JFrame {
             }
         });
     }
+    
 
+    
+    
 
     
 
