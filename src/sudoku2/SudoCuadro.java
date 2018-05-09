@@ -57,18 +57,17 @@ public class SudoCuadro {
      */
     public void performMarkup(){
         System.out.println("Markup en proceso: cuadro " + row +" " + col);
-        SetADT<Integer> result = new ArraySet<>();
 
         SetADT<Integer> diffRow = this.row.difference(conjRef);
         SetADT<Integer> diffCol = this.col.difference(conjRef);
         SetADT<Integer> diffSqr = this.square.difference(conjRef);
 
-        result = conjRef.intersect(diffCol, diffRow, diffSqr);
+        SetADT<Integer> result = conjRef.intersect(diffCol, diffRow, diffSqr);
         this.markup =  result;
     }
 
     private void poblrarRef(){
-        for (int i=0; i<10; i++){
+        for (int i=1; i<10; i++){
             conjRef.add(i);
         }
     }
@@ -79,7 +78,7 @@ public class SudoCuadro {
                 "row=" + row.toString() +
                 ", col=" + col.toString() +
                 ", square=" + square.toString() +
-                ", markup=" + markup.listItems() +
+                ", markup= FIXME " +
                 '}';
     }
 }

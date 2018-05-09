@@ -190,7 +190,7 @@ public class ArraySet<T> implements SetADT<T> {
     @Override
     public SetADT<T> difference(SetADT<T> oSet) {
 
-    ArraySet<T> AdiffB = new ArraySet<T>();
+    ArraySet<T> AdiffB = new ArraySet<>("...");
     Iterator<T> iter= oSet.iterator();
     T element;
     
@@ -233,18 +233,22 @@ public class ArraySet<T> implements SetADT<T> {
     return name;
   }
 
-  public String listItems(){
-    String fullList = "";
-      if (!this.isEmpty()) {
+  public String listItems() {
+      StringBuilder res = new StringBuilder();
+    Iterator<T> iter;
 
-        Iterator<T> iter = this.iterator();
-        T element = iter.next();
+      try{
+        iter = this.iterator();
 
         while (iter.hasNext()) {
-          fullList = fullList + element.toString();
+          T element = iter.next();
+          res.append(element.toString());
         }
-
+      }catch (EmptyCollectionException ex){
+        res.append("El conjunto ").append(this.toString()).append(" esta vacio");
       }
-    return fullList;
+
+      return res.toString();
   }
+
 }

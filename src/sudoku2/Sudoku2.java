@@ -117,9 +117,12 @@ public class Sudoku2 {
     }
 
     public static void barridoInicial(){
+        SudoCuadro temp;
         for (int row=0; row<9; row++){
             for (int col=0; col<9; col++){
-                System.out.println(matrizMaestra[row][col].markup.listItems());
+                temp = matrizMaestra[row][col];
+                System.out.println("Listando markup de cuadro " + temp.toString());
+                System.out.println(temp.markup.listItems());
             }
         }
     }
