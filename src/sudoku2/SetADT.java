@@ -43,4 +43,6 @@ public interface SetADT<T>{
   public SetADT<T> difference(SetADT<T> oSet);
 
   public SetADT<T> intersect(SetADT<T>... oSets);
+
+  public String listItems();
 }

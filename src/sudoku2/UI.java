@@ -16,9 +16,7 @@ import javax.swing.JTextField;
  * @author AMARTINECI
  */
 public class UI extends javax.swing.JFrame {
-    
-    HashMap<String, SudoCuadro> dictMap = new HashMap<String, SudoCuadro>();
-    //FixMe: Might not work 
+
 
     /**
      * Creates new form UI
@@ -1002,6 +1000,8 @@ public class UI extends javax.swing.JFrame {
         System.out.println("Se cliqueo " + temp.getName());
         
         //TODO: Usar HashMap para encontrar objeto cuadro correspondiente y llamar sus metodos asi
+        String pruebaCool = Sudoku2.dictMap.get(temp.getName()).toString();
+        System.out.println(pruebaCool);
 
 
     }//GEN-LAST:event_squareModified
@@ -1040,11 +1040,7 @@ public class UI extends javax.swing.JFrame {
             }
         });
     }
-    
 
-
-    
-    //Easter egg - Huehuehue
 
     
 

@@ -230,8 +230,21 @@ public class ArraySet<T> implements SetADT<T> {
 
   @Override
   public String toString() {
-    return "ArraySet{" +
-            "name='" + name + '\'' +
-            '}';
+    return name;
+  }
+
+  public String listItems(){
+    String fullList = "";
+      if (!this.isEmpty()) {
+
+        Iterator<T> iter = this.iterator();
+        T element = iter.next();
+
+        while (iter.hasNext()) {
+          fullList = fullList + element.toString();
+        }
+
+      }
+    return fullList;
   }
 }

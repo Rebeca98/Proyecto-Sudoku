@@ -28,7 +28,7 @@ public class SudoCuadro {
     SetADT<Integer> square; 
     SetADT<Integer> markup;
 
-    private SetADT<Integer> conjRef = new ArraySet<>();
+    private SetADT<Integer> conjRef;
 
 
 
@@ -41,7 +41,8 @@ public class SudoCuadro {
         this.row = row;
         this.col = col;
         
-        this.markup = new ArraySet<>();
+        this.markup = new ArraySet<>("Markup de " + row + " " + col );
+        this.conjRef = new ArraySet<>("Referencia");
         this.poblrarRef();
     }
     
@@ -54,7 +55,8 @@ public class SudoCuadro {
      * Es decir, verificar que numeros es valido colocar en el cuadro intersectando conjuntos set,col,square
      * Crea un conjunto por set, otro por row, etc... Los intersecta para encontrar resultado 
      */
-    public SetADT<Integer> performMarkup(){
+    public void performMarkup(){
+        System.out.println("Markup en proceso: cuadro " + row +" " + col);
         SetADT<Integer> result = new ArraySet<>();
 
         SetADT<Integer> diffRow = this.row.difference(conjRef);
@@ -62,12 +64,12 @@ public class SudoCuadro {
         SetADT<Integer> diffSqr = this.square.difference(conjRef);
 
         result = conjRef.intersect(diffCol, diffRow, diffSqr);
-        return result;
+        this.markup =  result;
     }
 
     private void poblrarRef(){
         for (int i=0; i<10; i++){
-            this.conjRef.add(i);
+            conjRef.add(i);
         }
     }
 
@@ -77,6 +79,7 @@ public class SudoCuadro {
                 "row=" + row.toString() +
                 ", col=" + col.toString() +
                 ", square=" + square.toString() +
+                ", markup=" + markup.listItems() +
                 '}';
     }
 }

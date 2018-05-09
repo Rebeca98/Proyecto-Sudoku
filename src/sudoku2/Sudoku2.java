@@ -24,6 +24,8 @@ public class Sudoku2 {
         // TODO code application logic here
         UI.main(args);
         sudokuSetup();
+        performInitialMarkup();
+        barridoInicial();
     }
 
     /**
@@ -35,13 +37,13 @@ public class Sudoku2 {
         //Creando arreglo de conjuntos mark-up de columnas, para después iterar sobre el mismo y asignar
         Object[] columnas = new Object[10];
         for (int col = 0; col < 9; col++) {
-            columnas[col] = new ArraySet<>("columna " + col);
+            columnas[col] = new ArraySet<>("columna " + (col+1));
         }
 
         //Creando arreglo de conjuntos mark-up de filas, para después iterar sobre el mismo y asignar
         Object[] rows = new Object[10];
         for (int row = 0; row < 9; row++) {
-            rows[row] = new ArraySet<>("row " + (char) row );
+            rows[row] = new ArraySet<>("row " + (char) (row+65)  );
         }
 
         //Creando bigSquares manualmente. Se les asigna letras griegas de acuerdo a lo descrito en parte escrita
@@ -104,7 +106,22 @@ public class Sudoku2 {
             }
             first++;
         }
+    }
 
+    public static void performInitialMarkup(){
+        for (int row=0; row<9; row++){
+            for (int col=0; col<9; col++){
+                matrizMaestra[row][col].performMarkup();
+            }
+        }
+    }
+
+    public static void barridoInicial(){
+        for (int row=0; row<9; row++){
+            for (int col=0; col<9; col++){
+                System.out.println(matrizMaestra[row][col].markup.listItems());
+            }
+        }
     }
 
 
