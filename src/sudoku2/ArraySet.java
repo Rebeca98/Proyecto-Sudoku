@@ -206,6 +206,11 @@ public class ArraySet<T> implements SetADT<T> {
     return AdiffB; 
     }
 
+  /**
+   * Intersección entre este conjunto y otro número arbitrario de conjutos del mismo tipo
+   * @param oSets: Set o sets para hacer itersección. this ∩ oSet1 ∩ oSet2 ∩ ... ∩ oSetN
+   * @return: Conjunto de resultado de la operación
+   */
   @Override
   public SetADT<T> intersect(SetADT<T>... oSets) {
         ArraySet<T> intersectFinal = new ArraySet<>();
@@ -222,7 +227,6 @@ public class ArraySet<T> implements SetADT<T> {
                   intersectFinal.add(element);
               }
           }
-
         }
 
     return intersectFinal;
@@ -233,6 +237,10 @@ public class ArraySet<T> implements SetADT<T> {
     return name;
   }
 
+  /**
+   * Metodo para listar los elementos de un conjunto para visualización rápida.
+   * @return: String de elementos concatenados separados por espacios
+   */
   public String listItems() {
       StringBuilder res = new StringBuilder();
     Iterator<T> iter;
@@ -242,7 +250,7 @@ public class ArraySet<T> implements SetADT<T> {
 
         while (iter.hasNext()) {
           T element = iter.next();
-          res.append(element.toString());
+          res.append(element.toString()).append(" ");
         }
       }catch (EmptyCollectionException ex){
         res.append("El conjunto ").append(this.toString()).append(" esta vacio");

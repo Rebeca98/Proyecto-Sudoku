@@ -12,37 +12,47 @@ public interface SetADT<T>{
 
   /** Adds one element to this set, ignoring duplicates. 
     */
-  public void add(T element);
+  void add(T element);
 
   /** Adds all the elements of the parameter to this set.
     */
-  public void addAll(SetADT<T> oset);
+  void addAll(SetADT<T> oset);
   
   /** Removes and returns a random element from this set. 
     */
-  public T removeRandom();
+  T removeRandom();
   
   /** Removes and returns the specified element from this set. 
     */
-  public T remove(T element);
+  T remove(T element);
   
   /** Returns true if this set contains the element.
     */
-  public boolean contains(T element);
+  boolean contains(T element);
     
   /** Returns true if this set contains no elements.
     */
-  public boolean isEmpty();
+  boolean isEmpty();
   
   /** Returns the number of elements in this set.
     */
-  public int size();
+  int size();
   
-  public Iterator<T> iterator();
+  Iterator<T> iterator();
 
-  public SetADT<T> difference(SetADT<T> oSet);
+  /**
+   * Método que realiza la operación de diferencia de conjuntos. i.e: this - oSet o this \ oSet
+   * @param oSet: Conjunto para hacer diferencia this \ oSet
+   * @return: Conjunto con el resultado de la operación
+   */
+  SetADT<T> difference(SetADT<T> oSet);
 
-  public SetADT<T> intersect(SetADT<T>... oSets);
+    /**
+     * Metodo que realiza la operación de intersección de conjuntos this ∩ oSets
+     * @param oSets: Set o sets para hacer itersección. this ∩ oSet1 ∩ oSet2 ∩ ... ∩ oSetN
+     * @return: Conjunto con el resultado de la operación
+     */
+  SetADT<T> intersect(SetADT<T>... oSets);
 
-  public String listItems();
+  String listItems();
 }

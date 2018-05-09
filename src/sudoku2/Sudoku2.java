@@ -72,7 +72,7 @@ public class Sudoku2 {
                 //Contenedor temporal
                 SudoCuadro tempCuadro = dictMap.get(fullname);
 
-
+                //contenedor temporal que soporta a el objeto cuadro
                 matrizMaestra[letra][num] = tempCuadro;
 
                 //Checando que bigsquare le pertenece y asignandole su objeto
@@ -104,10 +104,15 @@ public class Sudoku2 {
 
                 System.out.println(tempCuadro.toString());
             }
+            //Incrementa el contador de char para obtener la siguiente letra del alfabeto. 
             first++;
         }
     }
 
+    /**
+     * Método llamado para hacer el primer barrido de mark-up sobre todos los cuadros contenidos en la matriz maestra.
+     * Llamado después de setup.
+     */
     public static void performInitialMarkup(){
         for (int row=0; row<9; row++){
             for (int col=0; col<9; col++){

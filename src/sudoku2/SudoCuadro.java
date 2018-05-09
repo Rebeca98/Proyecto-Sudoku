@@ -45,7 +45,11 @@ public class SudoCuadro {
         this.conjRef = new ArraySet<>("Referencia");
         this.poblrarRef();
     }
-    
+
+    /**
+     * Asigna conjunto BigSquare al cuadro. Hecho para permitir que se cree el cuadro sin referenciar BigSquare de inmediato
+     * @param bigSquare: Conjunto que representa a los numeros contenidos en el bigSquare al que pertenece
+     */
     public void assignBigSquare(SetADT<Integer> bigSquare){
         this.square = bigSquare; 
     }
@@ -66,19 +70,22 @@ public class SudoCuadro {
         this.markup =  result;
     }
 
-    private void poblrarRef(){
-        for (int i=1; i<10; i++){
-            conjRef.add(i);
-        }
-    }
-
     @Override
     public String toString() {
         return "Cuadro:{" +
                 "row=" + row.toString() +
                 ", col=" + col.toString() +
                 ", square=" + square.toString() +
-                ", markup= FIXME " +
+                ", markup=" + markup.listItems() +
                 '}';
+    }
+
+    /**
+     * Método de ayuda para poblar el conjunto de referencia, y evitar hacerlo manualmente
+     */
+    private void poblrarRef(){
+        for (int i=1; i<10; i++){
+            conjRef.add(i);
+        }
     }
 }
