@@ -12,7 +12,6 @@ package sudoku2;
  */
 public class Sudoku2 {
 
-    //public static HashMap<String, SudoCuadro> dictMap = new HashMap<>();
     public static int[][] matrizMaestra = new int[9][9];
     public static SetADT[][] matrizGrande = new SetADT[][]{
             {new ArraySet<Integer>("alpha"), new ArraySet<Integer>("beta"), new ArraySet<Integer>("gamma")},
@@ -36,10 +35,49 @@ public class Sudoku2 {
 
     }
 
+    public static void actualizarValorEnCuadro(int row, int col, int value){
+        //TODO: Momentaneamente solo añade valores nuevos. No quita valores anteriores de conjuntos
+
+        int pastVal = matrizMaestra[row][col];
+
+        if (pastVal != value){
+            eliminarValorAnterior(row,col,pastVal);
+        }
+
+        matrizMaestra[row][col] = value;
+
+        //Actualizando conjuntos
+        SetADT tempFila = filas[row];
+        SetADT tempColumna = columnas[col];
+        SetADT tempCuadrote = matrizGrande[ (row/3 % 3) ][ (col/3 % 3) ];
+
+        System.out.println("Actualizando " + tempFila.toString() + "," + tempColumna.toString() +":" + tempCuadrote.toString() + " con valor " + value);
+
+        tempFila.add(value);
+        tempColumna.add(value);
+        tempCuadrote.add(value);
+
+    }
+
+    private static void eliminarValorAnterior(int row, int col, int pastValue){
+        SetADT tempFila = filas[row];
+        SetADT tempColumna = columnas[col];
+        SetADT tempCuadrote = matrizGrande[ (row/3 % 3) ][ (col/3 % 3) ];
+
+        try{
+            tempFila.remove(pastValue);
+            tempColumna.remove(pastValue);
+            tempCuadrote.remove(pastValue);
+
+        }catch (ElementNotFoundException | EmptyCollectionException ex){
+            System.out.println("Elemento no estaba anteriormente ");
+        }
+    }
+
     private static void poblarFilas(){
         char key = 'A';
         for (int letra = 0; letra< 9; letra ++){
-            filas[letra] = new ArraySet<Integer>(key);
+            filas[letra] = new ArraySet<Integer>(String.valueOf(key));
 
             key++;
         }

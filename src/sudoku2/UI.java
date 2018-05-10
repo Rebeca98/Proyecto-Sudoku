@@ -24,7 +24,7 @@ public class UI extends javax.swing.JFrame {
      */
     public UI() {
         initComponents();
-        
+
     }
 
     /**
@@ -1404,15 +1404,17 @@ public class UI extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void squareModified(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_squareModified
-        System.out.println("Area de prueba");
+
         JTextField temp = (JTextField) evt.getSource();
         String elementNom = temp.getName();
-        System.out.println("Se cliqueo " + temp.getName());
+        System.out.println("Se cliqueo " + elementNom);
 
         int indexRow = (int) (elementNom.charAt(0) - ASCII_INITIAL_VALUE);
         int indexCol = Integer.parseInt(String.valueOf(elementNom.charAt(1))) - 1;
+        int inputValue = Integer.parseInt(evt.getActionCommand());
 
         System.out.println("fila " + (indexRow) + " columna " + indexCol);
+        Sudoku2.actualizarValorEnCuadro(indexRow,indexCol, inputValue);
 
 
 
@@ -1453,12 +1455,6 @@ public class UI extends javax.swing.JFrame {
             }
         });
     }
-    
-
-    
-    
-
-    
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JTextField A1;
