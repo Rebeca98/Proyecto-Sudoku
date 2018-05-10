@@ -5,8 +5,6 @@
  */
 package sudoku2;
 
-import java.util.HashMap;
-
 
 /**
  *
@@ -14,123 +12,53 @@ import java.util.HashMap;
  */
 public class Sudoku2 {
 
-    public static HashMap<String, SudoCuadro> dictMap = new HashMap<>();
-    public static SudoCuadro[][] matrizMaestra = new SudoCuadro[9][9];
+    //public static HashMap<String, SudoCuadro> dictMap = new HashMap<>();
+    public static int[][] matrizMaestra = new int[9][9];
+    public static SetADT[][] matrizGrande = new SetADT[][]{
+            {new ArraySet<Integer>("alpha"), new ArraySet<Integer>("beta"), new ArraySet<Integer>("gamma")},
+            {new ArraySet<Integer>("delta"), new ArraySet<Integer>("epsilon"), new ArraySet<Integer>("zeta")},
+            {new ArraySet<Integer>("eta"), new ArraySet<Integer>("tetha"), new ArraySet<Integer>("iota")}
+    };
+
+    //filas y columnas
+    static SetADT[] filas = new ArraySet[9];
+    static SetADT[] columnas = new ArraySet[9];
     
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+
         UI.main(args);
-        sudokuSetup();
-        performInitialMarkup();
-        barridoInicial();
+        poblarFilas();
+        poblarColumnas();
+        poblarMatriz();
+
     }
 
-    /**
-     * Metodo encargado de toda la inicializaión de objetos y estruturas de soporte
-     * Responsabilidades: Crear 81 objetos cuadro y asignarles respectivamente los conjuntos mark-up que les corresponden, crear matriz maestra de objetos cuadro
-     */
-    private static void sudokuSetup() {
-        // 1. Creando objetos cuadro y asignandoles conjuntos mark-up de soporte
-        //Creando arreglo de conjuntos mark-up de columnas, para después iterar sobre el mismo y asignar
-        Object[] columnas = new Object[10];
-        for (int col = 0; col < 9; col++) {
-            columnas[col] = new ArraySet<>("columna " + (col+1));
-        }
+    private static void poblarFilas(){
+        char key = 'A';
+        for (int letra = 0; letra< 9; letra ++){
+            filas[letra] = new ArraySet<Integer>(key);
 
-        //Creando arreglo de conjuntos mark-up de filas, para después iterar sobre el mismo y asignar
-        Object[] rows = new Object[10];
-        for (int row = 0; row < 9; row++) {
-            rows[row] = new ArraySet<>("row " + (char) (row+65)  );
-        }
-
-        //Creando bigSquares manualmente. Se les asigna letras griegas de acuerdo a lo descrito en parte escrita
-        SetADT<Integer> alpha = new ArraySet<>("alpha");
-        SetADT<Integer> beta = new ArraySet<>("beta");
-        SetADT<Integer> gamma = new ArraySet<>("gamma");
-        SetADT<Integer> delta = new ArraySet<>("delta");
-        SetADT<Integer> epsilon = new ArraySet<>("epsilon");
-        SetADT<Integer> zeta = new ArraySet<>("zeta");
-        SetADT<Integer> eta = new ArraySet<>("eta");
-        SetADT<Integer> tetha = new ArraySet<>("tetha");
-        SetADT<Integer> iota = new ArraySet<>("iota");
-
-        //LLenando el hashmap principal para ligar objeto cuadro con objeto JTextField con llave <id> del textField
-        //Se itera por columna y fila
-        char first = 'A';
-        String fullname;
-        for (int letra = 0; letra < 9; letra++) {
-            for (int num = 0; num < 9; num++) {
-                fullname = String.valueOf(first) + String.valueOf(num+1);
-
-                System.out.println(fullname);
-                //Creando objeto y guardándolo en hashmap
-                dictMap.put(fullname, new SudoCuadro( (SetADT<Integer>) rows[letra], (SetADT<Integer>) columnas[num])) ;
-
-                //Contenedor temporal
-                SudoCuadro tempCuadro = dictMap.get(fullname);
-
-                //contenedor temporal que soporta a el objeto cuadro
-                matrizMaestra[letra][num] = tempCuadro;
-
-                //Checando que bigsquare le pertenece y asignandole su objeto
-                if (letra <= 2) { //columna es A, B o C
-                    if (num <= 2) { //fila 1,2 o 3
-                        tempCuadro.assignBigSquare(alpha);
-                    } else if (num <= 5) {//fila es 4,5 o 6
-                        tempCuadro.assignBigSquare(beta);
-                    } else {//Fila es 7,8 o 9
-                        tempCuadro.assignBigSquare(gamma);
-                    }
-                } else if (letra <= 5) { // columna es D, E o F
-                    if (num <= 2) { //fila 1,2 o 3
-                        tempCuadro.assignBigSquare(delta);
-                    } else if (num <= 5) {//fila es 4,5 o 6
-                        tempCuadro.assignBigSquare(epsilon);
-                    } else {//Fila es 7,8 o 9
-                        tempCuadro.assignBigSquare(zeta);
-                    }
-                } else { //columna es G, H o I
-                    if (num <= 2) { //fila 1,2 o 3
-                        tempCuadro.assignBigSquare(eta);
-                    } else if (num <= 5) {//fila es 4,5 o 6
-                        tempCuadro.assignBigSquare(tetha);
-                    } else {//Fila es 7,8 o 9
-                        tempCuadro.assignBigSquare(iota);
-                    }
-                }
-
-                System.out.println(tempCuadro.toString());
-            }
-            //Incrementa el contador de char para obtener la siguiente letra del alfabeto.
-            first++;
+            key++;
         }
     }
 
-    /**
-     * Método llamado para hacer el primer barrido de mark-up sobre todos los cuadros contenidos en la matriz maestra.
-     * Llamado después de setup.
-     */
-    public static void performInitialMarkup(){
-        for (int row=0; row<9; row++){
+    private static void poblarColumnas(){
+        for (int num = 0; num < 9; num++){
+            columnas[num] = new ArraySet<Integer>( String.valueOf(num+1));
+        }
+    }
+
+    private static void poblarMatriz(){
+        for(int row=0; row<9; row++){
             for (int col=0; col<9; col++){
-                matrizMaestra[row][col].performMarkup();
+                matrizMaestra[row][col] = 0;
             }
         }
     }
 
-    public static void barridoInicial(){
-        SudoCuadro temp;
-        for (int row=0; row<9; row++){
-            for (int col=0; col<9; col++){
-                temp = matrizMaestra[row][col];
-                System.out.println("Listando markup de cuadro " + temp.toString());
-                System.out.println(temp.markup.listItems());
-            }
-        }
-    }
 
 
 

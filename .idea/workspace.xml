@@ -3,8 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="0dbb03e8-d9a7-4d55-9912-2219026048ab" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sudoku2/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/UI.java" afterDir="false" />
     </list>
@@ -21,7 +29,7 @@
       <file leaf-file-name="SudoCuadro.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1702">
+            <state>
               <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
             </state>
           </provider>
@@ -30,17 +38,8 @@
       <file leaf-file-name="SetADT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/SetADT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1219">
+            <state relative-caret-position="394">
               <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArraySet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sudoku2/ArraySet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4600">
-              <caret line="211" column="51" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -48,8 +47,8 @@
       <file leaf-file-name="Sudoku2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1495">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state relative-caret-position="253">
+              <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -57,10 +56,12 @@
       <file leaf-file-name="UI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2488">
-              <caret line="1089" selection-start-line="1089" selection-end-line="1089" />
+            <state relative-caret-position="193">
+              <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1180#1269#0" expanded="true" />
+                <element signature="e#931#79647#0" />
+                <element signature="class#58707:58875" />
               </folding>
             </state>
           </provider>
@@ -74,26 +75,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sudoku2/UI.java" />
         <option value="$PROJECT_DIR$/src/sudoku2/SudoCuadro.java" />
         <option value="$PROJECT_DIR$/src/sudoku2/SetADT.java" />
         <option value="$PROJECT_DIR$/src/sudoku2/ArraySet.java" />
         <option value="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" />
+        <option value="$PROJECT_DIR$/src/sudoku2/UI.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
-    <option name="y" value="-13" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="2" />
+    <option name="width" value="1378" />
+    <option name="height" value="751" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,13 +118,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -138,7 +142,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files (x86)/Java/jdk1.8.0_171" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre1.8.0_171" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="sudoku2.Sudoku2" />
       <module name="proyecto-sudoku" />
@@ -209,7 +213,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="2" width="1378" height="751" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.34158415" />
@@ -219,13 +224,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5160745" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5152979" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16717096" />
-      <window_info id="Learn" order="2" weight="0.32980332" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14464024" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -235,22 +239,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Learn" order="2" weight="0.32980332" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9543974" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16764276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9543974" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -260,7 +265,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.8208469" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -278,6 +283,86 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/SetADT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/ArraySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="211" column="51" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18513">
+          <caret line="1089" selection-start-line="1089" selection-end-line="1089" />
+          <folding>
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/SetADT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/ArraySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="211" column="51" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18513">
+          <caret line="1089" selection-start-line="1089" selection-end-line="1089" />
+          <folding>
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1702">
@@ -304,7 +389,9 @@
         <state relative-caret-position="23046">
           <caret line="1002" column="63" selection-start-line="1002" selection-start-column="63" selection-end-line="1002" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
           </folding>
         </state>
       </provider>
@@ -342,7 +429,9 @@
         <state relative-caret-position="23046">
           <caret line="1002" column="63" selection-start-line="1002" selection-start-column="63" selection-end-line="1002" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
           </folding>
         </state>
       </provider>
@@ -387,7 +476,9 @@
         <state relative-caret-position="920">
           <caret line="1002" column="63" selection-start-line="1002" selection-start-column="63" selection-end-line="1002" selection-end-column="63" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
           </folding>
         </state>
       </provider>
@@ -418,7 +509,9 @@
         <state relative-caret-position="391">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
           </folding>
         </state>
       </provider>
@@ -463,22 +556,17 @@
         <state relative-caret-position="1656">
           <caret line="1056" lean-forward="true" selection-start-line="1056" selection-end-line="1056" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1702">
+        <state>
           <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sudoku2/SetADT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1219">
-          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -496,19 +584,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/SetADT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1495">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state relative-caret-position="253">
+          <caret line="15" column="56" lean-forward="true" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2488">
-          <caret line="1089" selection-start-line="1089" selection-end-line="1089" />
+        <state relative-caret-position="193">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
           </folding>
         </state>
       </provider>
@@ -516,9 +613,80 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>proyecto-sudoku</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Sudoku2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

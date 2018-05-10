@@ -16,7 +16,7 @@ import javax.swing.JTextField;
  * @author AMARTINECI
  */
 public class UI extends javax.swing.JFrame {
-    HashMap<String, SudoCuadro> dictMap = new HashMap<String, SudoCuadro>();
+    private static final int ASCII_INITIAL_VALUE = 65;
 
     /**
      * Creates new form UI
@@ -24,16 +24,7 @@ public class UI extends javax.swing.JFrame {
      */
     public UI() {
         initComponents();
-
-        //LLenando el hashmap
-        char first = 'A';
-        String fullname;
-        for (int letra=0; letra<26;letra++){
-            for(int num=0; num<9; num++){
-                fullname = String.valueOf(first) + String.valueOf(num);
-            }
-            first++; 
-        }
+        
     }
 
     /**
@@ -1414,10 +1405,16 @@ public class UI extends javax.swing.JFrame {
 
     private void squareModified(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_squareModified
         System.out.println("Area de prueba");
-        JTextField temp = (JTextField) evt.getSource(); 
+        JTextField temp = (JTextField) evt.getSource();
+        String elementNom = temp.getName();
         System.out.println("Se cliqueo " + temp.getName());
-        
-        //TODO: Usar HashMap para encontrar objeto cuadro correspondiente y llamar sus metodos asi
+
+        int indexRow = (int) (elementNom.charAt(0) - ASCII_INITIAL_VALUE);
+        int indexCol = Integer.parseInt(String.valueOf(elementNom.charAt(1))) - 1;
+
+        System.out.println("fila " + (indexRow) + " columna " + indexCol);
+
+
 
 
     }//GEN-LAST:event_squareModified
