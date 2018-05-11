@@ -223,7 +223,7 @@ public class Sudoku2 {
                 System.out.println("\u001B[31m" + "Error al tratar de resolver " + tempFila.toString() +  (col+1) + "\n" + "\u001B[0m " );
 
                 //backtrack
-                
+                resuelveRecursivo(row,col-1);
 
             }
         }
