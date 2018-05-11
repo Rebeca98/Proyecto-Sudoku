@@ -5,11 +5,7 @@
  */
 package sudoku2;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.HashMap;
 import javax.swing.JTextField;
-
 
 /**
  *
@@ -1416,6 +1412,7 @@ public class UI extends javax.swing.JFrame {
         System.out.println("fila " + (indexRow) + " columna " + indexCol);
         Sudoku2.actualizarValorEnCuadro(indexRow,indexCol, inputValue);
 
+        //TODO: Invocar advertencia en caso de que acutalizarVal de false
 
 
 

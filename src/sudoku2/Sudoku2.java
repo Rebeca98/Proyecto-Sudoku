@@ -35,27 +35,37 @@ public class Sudoku2 {
 
     }
 
-    public static void actualizarValorEnCuadro(int row, int col, int value){
-        //TODO: Momentaneamente solo añade valores nuevos. No quita valores anteriores de conjuntos
-
+    public static boolean actualizarValorEnCuadro(int row, int col, int value){
+        //Obteniendo valor pasado
         int pastVal = matrizMaestra[row][col];
 
-        if (pastVal != value){
-            eliminarValorAnterior(row,col,pastVal);
-        }
-
-        matrizMaestra[row][col] = value;
-
-        //Actualizando conjuntos
+        //Obteniendo conjuntos de referencia
         SetADT tempFila = filas[row];
         SetADT tempColumna = columnas[col];
         SetADT tempCuadrote = matrizGrande[ (row/3 % 3) ][ (col/3 % 3) ];
 
-        System.out.println("Actualizando " + tempFila.toString() + "," + tempColumna.toString() +":" + tempCuadrote.toString() + " con valor " + value);
+        //Uniendo conjuntos de referencia para formar el inverso del markup.
+        //Markup inverso tiene todos los elementos que el número no puede ser.
+        ArraySet<Integer> prohibidos = new ArraySet<>();
+        prohibidos.addAll(tempFila,tempColumna,tempCuadrote);
 
-        tempFila.add(value);
-        tempColumna.add(value);
-        tempCuadrote.add(value);
+        if (value != pastVal && !prohibidos.contains(value)){//Distinto de anterior y no contenido en prohibidos
+            //Ya se confirmó que no era el valor anterior, y era movimiento valido.
+            matrizMaestra[row][col] = value;
+
+            //Actualizando conjuntos
+            System.out.println("Actualizando " + tempFila.toString() + "," + tempColumna.toString() +":"
+                    + tempCuadrote.toString() + " con valor " + value);
+
+            tempFila.add(value);
+            tempColumna.add(value);
+            tempCuadrote.add(value);
+
+            return true;
+        }else{
+            System.out.println("Violación!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+            return false;
+        }
 
     }
 
@@ -99,6 +109,4 @@ public class Sudoku2 {
 
 
 
-
-    
 }

@@ -72,6 +72,18 @@ public class ArraySet<T> implements SetADT<T> {
       this.add(element);
     }
   }
+
+    public void addAll(SetADT<T>... sets) {
+        for (SetADT<T> set : sets){
+            Iterator<T> iter = set.iterator();
+            T element;
+
+            while (iter.hasNext()) {
+                element = iter.next();
+                this.add(element);
+            }
+        }
+    }
   
   /**
    * Removes a random element from the set and returns it. Throws
