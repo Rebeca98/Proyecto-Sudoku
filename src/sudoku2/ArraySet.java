@@ -244,6 +244,7 @@ public class ArraySet<T> implements SetADT<T> {
     return intersectFinal;
   }
 
+
   @Override
   public String toString() {
     return name;
@@ -254,7 +255,7 @@ public class ArraySet<T> implements SetADT<T> {
    * @return: String de elementos concatenados separados por espacios
    */
   public String listItems() {
-      StringBuilder res = new StringBuilder();
+      StringBuilder res = new StringBuilder("{");
     Iterator<T> iter;
 
       try{
@@ -264,6 +265,7 @@ public class ArraySet<T> implements SetADT<T> {
           T element = iter.next();
           res.append(element.toString()).append(" ");
         }
+        res.append("}");
       }catch (EmptyCollectionException ex){
         res.append("El conjunto ").append(this.toString()).append(" esta vacio");
       }
