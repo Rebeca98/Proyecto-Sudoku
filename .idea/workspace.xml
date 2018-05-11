@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0dbb03e8-d9a7-4d55-9912-2219026048ab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/ArraySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/ArraySet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,15 +41,14 @@
       <file leaf-file-name="Sudoku2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="236" lean-forward="true" selection-start-line="236" selection-end-line="236" />
+            <state relative-caret-position="348">
+              <caret line="225" selection-start-line="225" selection-end-line="225" />
               <folding>
                 <element signature="method#main#0;class#Sudoku2#0" />
                 <element signature="docComment;method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
                 <element signature="method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
                 <element signature="docComment;method#setupSudoku#0;class#Sudoku2#0" />
                 <element signature="method#setupSudoku#0;class#Sudoku2#0" />
-                <element signature="method#resueveTablero#0;class#Sudoku2#0" />
                 <element signature="e#6024#6058#0" />
                 <element signature="e#6235#6303#0" />
                 <element signature="method#muestraTablero#0;class#Sudoku2#0" />
@@ -914,7 +910,6 @@
             <element signature="method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
             <element signature="docComment;method#setupSudoku#0;class#Sudoku2#0" />
             <element signature="method#setupSudoku#0;class#Sudoku2#0" />
-            <element signature="method#resueveTablero#0;class#Sudoku2#0" />
             <element signature="e#6024#6058#0" />
             <element signature="e#6235#6303#0" />
             <element signature="method#muestraTablero#0;class#Sudoku2#0" />
@@ -2533,15 +2528,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="236" lean-forward="true" selection-start-line="236" selection-end-line="236" />
+        <state relative-caret-position="348">
+          <caret line="225" selection-start-line="225" selection-end-line="225" />
           <folding>
             <element signature="method#main#0;class#Sudoku2#0" />
             <element signature="docComment;method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
             <element signature="method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
             <element signature="docComment;method#setupSudoku#0;class#Sudoku2#0" />
             <element signature="method#setupSudoku#0;class#Sudoku2#0" />
-            <element signature="method#resueveTablero#0;class#Sudoku2#0" />
             <element signature="e#6024#6058#0" />
             <element signature="e#6235#6303#0" />
             <element signature="method#muestraTablero#0;class#Sudoku2#0" />

@@ -51,7 +51,7 @@ public class Sudoku2 {
         //resueveTablero();
         //muestraTablero();
         System.out.println("Resulución: \n \n \n ");
-        resuelveRecursivo(0,0,0,0,false);
+        resuelveRecursivo(0,0);
     }
 
     /**
@@ -177,7 +177,7 @@ public class Sudoku2 {
         }
     }
 
-    public static void resuelveRecursivo(int row, int col, int pastRow, int pastCol, boolean isBacktracking){
+    public static void resuelveRecursivo(int row, int col){
         //Todo: Verificar que no sea cero
         //Obteniendo numeros prohibidos
         SetADT tempFila = filas[row];
@@ -191,8 +191,7 @@ public class Sudoku2 {
         SetADT<Integer> markup;
         markup = prohibidos.difference(REFERENCIA);
 
-        System.out.println("Parado en " + tempFila.toString() + (col+1) + " con posibles sol: " + markup.listItems() +
-        " - backtracking: " + isBacktracking);
+        System.out.println("Parado en " + tempFila.toString() + (col+1) + " con posibles sol: " + markup.listItems() );
 
         //Navegación
         if (col == 8){
@@ -205,35 +204,26 @@ public class Sudoku2 {
                 System.out.println("\u001B[33m" +     "HEY: Error al tratar de resolver " + tempFila.toString() +
                         (col+1)  + "\n" + "\u001B[0m ");
 
-                if (isBacktracking) {
-                    resuelveRecursivo(pastRow, pastCol-1, row, col, true);
-                }else{
-                    resuelveRecursivo(pastRow, 0, row, col, true);
-                }
-
+                //backtrack
+                resuelveRecursivo(row,col-1);
             }
 
             if (row<8){
                 //Brinca a siguiente fila
-                resuelveRecursivo(row+1,0, row,col,false);
+                resuelveRecursivo(row+1,0);
             }
         }else { //No está en borde izquierdo
 
             try {
                 int prueba = markup.removeRandom();
                 actualizarValorEnCuadro(row, col, prueba);
-                resuelveRecursivo(row, col + 1, row, col,isBacktracking);
+                resuelveRecursivo(row, col + 1);
             } catch (EmptyCollectionException ex) {
 
                 System.out.println("\u001B[31m" + "Error al tratar de resolver " + tempFila.toString() +  (col+1) + "\n" + "\u001B[0m " );
 
-                if (!isBacktracking && col != 0) {
-                    resuelveRecursivo(pastRow, pastCol, row, col, true);
-                }else if(isBacktracking && col == 0 || markup.size() < 2){
-                    resuelveRecursivo(row-1, 8, row, col, true);
-                }else{
-                    resuelveRecursivo(pastRow, pastCol-1, row, 1, true);
-                }
+                //backtrack
+                
 
             }
         }
