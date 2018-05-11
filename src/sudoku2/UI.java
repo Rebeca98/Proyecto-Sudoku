@@ -1413,6 +1413,7 @@ public class UI extends javax.swing.JFrame {
         Sudoku2.actualizarValorEnCuadro(indexRow,indexCol, inputValue);
 
         //TODO: Invocar advertencia en caso de que acutalizarVal de false
+        //TODO: Validar que sea un digito 1 <= n <= 9
 
 
 

@@ -5,7 +5,7 @@
  */
 package sudoku2;
 
-import sudoku2.ArrayIterator;
+
 import java.util.*;
 
 public class ArraySet<T> implements SetADT<T> {

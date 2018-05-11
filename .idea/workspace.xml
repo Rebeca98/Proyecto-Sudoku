@@ -16,15 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SudoCuadro.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SetADT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/SetADT.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,8 +28,8 @@
       <file leaf-file-name="ArraySet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/ArraySet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
+            <state relative-caret-position="69">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="method#add#0;class#ArraySet#0" />
                 <element signature="method#addAll#1;class#ArraySet#0" />
@@ -55,13 +46,11 @@
       <file leaf-file-name="Sudoku2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+            <state relative-caret-position="398">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
-                <element signature="method#eliminarValorAnterior#0;class#Sudoku2#0" />
-                <element signature="method#poblarFilas#0;class#Sudoku2#0" />
-                <element signature="method#poblarColumnas#0;class#Sudoku2#0" />
-                <element signature="method#poblarMatriz#0;class#Sudoku2#0" />
+                <element signature="docComment;method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
+                <element signature="method#setupSudoku#0;class#Sudoku2#0" />
               </folding>
             </state>
           </provider>
@@ -70,8 +59,8 @@
       <file leaf-file-name="UI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="1414" column="73" selection-start-line="1414" selection-start-column="73" selection-end-line="1414" selection-end-column="73" />
+            <state relative-caret-position="422">
+              <caret line="1415" column="53" selection-start-line="1415" selection-start-column="53" selection-end-line="1415" selection-end-column="53" />
               <folding>
                 <element signature="e#1180#1269#0" expanded="true" />
                 <element signature="e#931#79647#0" />
@@ -294,7 +283,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -324,10 +313,8 @@
         <state relative-caret-position="187">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
           <folding>
-            <element signature="method#eliminarValorAnterior#0;class#Sudoku2#0" />
-            <element signature="method#poblarFilas#0;class#Sudoku2#0" />
-            <element signature="method#poblarColumnas#0;class#Sudoku2#0" />
-            <element signature="method#poblarMatriz#0;class#Sudoku2#0" />
+            <element signature="docComment;method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
+            <element signature="method#setupSudoku#0;class#Sudoku2#0" />
           </folding>
         </state>
       </provider>
@@ -598,9 +585,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="1415" column="53" selection-start-line="1415" selection-start-column="53" selection-end-line="1415" selection-end-column="53" />
+          <folding>
+            <element signature="e#1180#1269#0" expanded="true" />
+            <element signature="e#931#79647#0" />
+            <element signature="class#58707:58875" />
+            <element signature="e#80062#81742#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/SudoCuadro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="1648">
           <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
         </state>
       </provider>
@@ -612,23 +612,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="1414" column="73" selection-start-line="1414" selection-start-column="73" selection-end-line="1414" selection-end-column="73" />
-          <folding>
-            <element signature="e#1180#1269#0" expanded="true" />
-            <element signature="e#931#79647#0" />
-            <element signature="class#58707:58875" />
-            <element signature="e#80062#81742#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/ArraySet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="75" column="42" selection-start-line="75" selection-start-column="42" selection-end-line="75" selection-end-column="42" />
+        <state relative-caret-position="69">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="method#add#0;class#ArraySet#0" />
             <element signature="method#addAll#1;class#ArraySet#0" />
@@ -643,13 +630,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="65" column="72" selection-start-line="65" selection-start-column="72" selection-end-line="65" selection-end-column="72" />
+        <state relative-caret-position="398">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
-            <element signature="method#eliminarValorAnterior#0;class#Sudoku2#0" />
-            <element signature="method#poblarFilas#0;class#Sudoku2#0" />
-            <element signature="method#poblarColumnas#0;class#Sudoku2#0" />
-            <element signature="method#poblarMatriz#0;class#Sudoku2#0" />
+            <element signature="docComment;method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
+            <element signature="method#setupSudoku#0;class#Sudoku2#0" />
           </folding>
         </state>
       </provider>
