@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dbb03e8-d9a7-4d55-9912-2219026048ab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/Sudoku2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/ArraySet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/ArraySet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/SetADT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/SetADT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/UI.java" afterDir="false" />
-    </list>
+    <list default="true" id="0dbb03e8-d9a7-4d55-9912-2219026048ab" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,8 +41,8 @@
       <file leaf-file-name="Sudoku2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="169" column="94" lean-forward="true" selection-start-line="169" selection-start-column="94" selection-end-line="169" selection-end-column="94" />
+            <state relative-caret-position="195">
+              <caret line="171" column="13" lean-forward="true" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
               <folding>
                 <element signature="method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
                 <element signature="method#setupSudoku#0;class#Sudoku2#0" />
@@ -92,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="width" value="1380" />
     <option name="height" value="753" />
@@ -671,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="169" column="94" lean-forward="true" selection-start-line="169" selection-start-column="94" selection-end-line="169" selection-end-column="94" />
+        <state relative-caret-position="195">
+          <caret line="171" column="13" lean-forward="true" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
           <folding>
             <element signature="method#actualizarValorEnCuadro#0;class#Sudoku2#0" />
             <element signature="method#setupSudoku#0;class#Sudoku2#0" />
