@@ -1410,7 +1410,7 @@ public class UI extends javax.swing.JFrame {
         int inputValue = Integer.parseInt(evt.getActionCommand());
 
         System.out.println("fila " + (indexRow) + " columna " + indexCol);
-        Sudoku2.actualizarValorEnCuadro(indexRow,indexCol, inputValue);
+        //Sudoku2.actualizarValorEnCuadro(indexRow,indexCol, inputValue);
 
         //TODO: Invocar advertencia en caso de que acutalizarVal de false
         //TODO: Validar que sea un digito 1 <= n <= 9

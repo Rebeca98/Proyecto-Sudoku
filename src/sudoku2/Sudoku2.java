@@ -6,6 +6,8 @@
 package sudoku2;
 
 
+import java.util.Iterator;
+
 /**
  *
  * @author AMARTINECI
@@ -13,10 +15,12 @@ package sudoku2;
 public class Sudoku2 {
 
     //TODO: Volver todas las cosas iterativas, recursivas.
+    private static final int ASCII_INITIAL_VALUE = 65;
+    private static final int dim = 9;
 
     public static int[][] matrizMaestra = new int[9][9];
-    /*
-    public static int[][] matrizMaestra = new int[][]{
+
+    public static int[][] sudokuOne = new int[][]{
             {7,5,0,9,0,3,0,0,6},
             {0,0,0,0,0,0,0,0,0},
             {0,0,0,4,5,0,0,0,3},
@@ -27,7 +31,7 @@ public class Sudoku2 {
             {0,0,0,0,0,0,0,0,0},
             {9,0,0,6,0,0,0,5,7}
     };
-    */
+
     public static SetADT[][] matrizGrande = new SetADT[][]{
             {new ArraySet<Integer>("alpha"), new ArraySet<Integer>("beta"), new ArraySet<Integer>("gamma")},
             {new ArraySet<Integer>("delta"), new ArraySet<Integer>("epsilon"), new ArraySet<Integer>("zeta")},
@@ -50,8 +54,11 @@ public class Sudoku2 {
         setupSudoku();
         //resueveTablero();
         //muestraTablero();
-        System.out.println("Resulución: \n \n \n ");
-        resuelveRecursivo(0,0);
+        System.out.println("Resulución: \n \n  ");
+        //resuelveRecursivo(0,0);
+        muestraTablero(matrizMaestra);
+        resuelve(matrizMaestra,0,0);
+        muestraTablero(matrizMaestra);
     }
 
     /**
@@ -66,9 +73,9 @@ public class Sudoku2 {
      * @param value: Valor que el usuario mete
      * @return :  Si es válido el movimiento
      */
-    public static boolean actualizarValorEnCuadro(int row, int col, int value){
+    public static boolean actualizarValorEnCuadro(int[][] mat, int row, int col, int value){
         //Obteniendo valor pasado
-        int pastVal = matrizMaestra[row][col];
+        int pastVal = mat[row][col];
 
         //Obteniendo conjuntos de referencia
         SetADT tempFila = filas[row];
@@ -92,7 +99,7 @@ public class Sudoku2 {
             }
 
             //Ya se confirmó que no era el valor anterior, y era movimiento valido.
-            matrizMaestra[row][col] = value;
+            mat[row][col] = value;
 
             //Actualizando conjuntos
             System.out.println("Actualizando " + tempFila.toString() + tempColumna.toString() +":"
@@ -145,44 +152,35 @@ public class Sudoku2 {
 
     }
 
-    public static void resueveTablero(){
-        for (int row=0; row<9; row++){
-            for (int col=0; col<9; col++){
-                //Obteniendo numeros prohibidos
-                SetADT tempFila = filas[row];
-                SetADT tempColumna = columnas[col];
-                SetADT tempCuadrote = matrizGrande[ (row/3 % 3) ][ (col/3 % 3) ];
+    public static boolean resuelve(int[][] sudo, int row, int col){
+        System.out.println("Parado en " + row + (col+1)  );
 
-                //Uniendo conjuntos de referencia para formar el inverso del markup.
-                //Markup inverso tiene todos los numeros prohibidos
-                ArraySet<Integer> prohibidos = new ArraySet<>();
-                prohibidos.addAll(tempFila,tempColumna,tempCuadrote);
+        if (row >= dim){
+            return true;
+        }else if(sudo[row][col] != 0) {
+            return  resuelve(sudo, col+1<dim ? row:row+1 , col+1<dim ? col+1:0 );
+        }else{
+            SetADT markup = getMarkup(row,col);
+            Iterator iter = markup.iterator();
 
-                SetADT<Integer> markup;
-                markup = prohibidos.difference(REFERENCIA);
+            while (iter.hasNext()){
+                int candidate = (int) iter.next();
+                actualizarValorEnCuadro(sudo,row,col,candidate);
 
-                //matrizMaestra[row][col] = markup.removeRandom();
-
-                try {
-                    int prueba = markup.removeRandom();
-                    actualizarValorEnCuadro(row, col, prueba);
-                }catch (EmptyCollectionException ex){
-                    //TODO: Buscar como bactracking
-                    matrizMaestra[row][col] = 11;
-                    System.out.println("OOOOOOOOPS. lOOK AT ME.  " );
-
-                }
-
+                if (resuelve(sudo, col+1<dim ? row:row+1 , col+1<dim ? col+1:0 )) return true;
+                actualizarValorEnCuadro(sudo,row,col,0);
             }
+            System.out.println("Backtracking");
+            return false;
         }
     }
 
-    public static void resuelveRecursivo(int row, int col){
-        //Todo: Verificar que no sea cero
+    private static SetADT<Integer> getMarkup(int row, int col){
         //Obteniendo numeros prohibidos
         SetADT tempFila = filas[row];
         SetADT tempColumna = columnas[col];
         SetADT tempCuadrote = matrizGrande[ (row/3 % 3) ][ (col/3 % 3) ];
+
         //Uniendo conjuntos de referencia para formar el inverso del markup.
         //Markup inverso tiene todos los numeros prohibidos
         ArraySet<Integer> prohibidos = new ArraySet<>();
@@ -191,50 +189,14 @@ public class Sudoku2 {
         SetADT<Integer> markup;
         markup = prohibidos.difference(REFERENCIA);
 
-        System.out.println("Parado en " + tempFila.toString() + (col+1) + " con posibles sol: " + markup.listItems() );
-
-        //Navegación
-        if (col == 8){
-            try {
-                int prueba = markup.removeRandom();
-                actualizarValorEnCuadro(row, col, prueba);
-                muestraTablero();
-            }catch (EmptyCollectionException ex){
-
-                System.out.println("\u001B[33m" +     "HEY: Error al tratar de resolver " + tempFila.toString() +
-                        (col+1)  + "\n" + "\u001B[0m ");
-
-                //backtrack
-                resuelveRecursivo(row,col-1);
-            }
-
-            if (row<8){
-                //Brinca a siguiente fila
-                resuelveRecursivo(row+1,0);
-            }
-        }else { //No está en borde izquierdo
-
-            try {
-                int prueba = markup.removeRandom();
-                actualizarValorEnCuadro(row, col, prueba);
-                resuelveRecursivo(row, col + 1);
-            } catch (EmptyCollectionException ex) {
-
-                System.out.println("\u001B[31m" + "Error al tratar de resolver " + tempFila.toString() +  (col+1) + "\n" + "\u001B[0m " );
-
-                //backtrack
-                resuelveRecursivo(row,col-1);
-
-            }
-        }
-
+        return markup;
     }
 
-    public static void muestraTablero(){
+    public static void muestraTablero(int[][] mat){
         System.out.print("\n"+"\n");
         for (int row=0; row<9; row++){
             for (int col=0; col<9; col++){
-                System.out.print(matrizMaestra[row][col] + "  ");
+                System.out.print(mat[row][col] + "  ");
 
                 if(((col+1) %3) == 0) {
                     System.out.print("\u001B[32m" + "| " + "\u001B[0m");

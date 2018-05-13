@@ -273,4 +273,18 @@ public class ArraySet<T> implements SetADT<T> {
       return res.toString();
   }
 
+  public int removeSmallest(){
+      Iterator iter = this.iterator();
+      int smallest = (int) iter.next();
+
+      while (iter.hasNext()){
+          int cur = (int) iter.next();
+
+          if (cur < smallest){
+              smallest = cur;
+          }
+      }
+      return smallest;
+  }
+
 }

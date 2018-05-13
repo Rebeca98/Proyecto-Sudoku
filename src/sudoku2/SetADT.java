@@ -54,5 +54,7 @@ public interface SetADT<T>{
      */
   SetADT<T> intersect(SetADT<T>... oSets);
 
+  int removeSmallest();
+
   String listItems();
 }
