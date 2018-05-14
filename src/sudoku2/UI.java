@@ -6,6 +6,7 @@
 package sudoku2;
 
 import javax.swing.JTextField;
+import java.util.HashMap;
 
 /**
  *
@@ -13,6 +14,8 @@ import javax.swing.JTextField;
  */
 public class UI extends javax.swing.JFrame {
     private static final int ASCII_INITIAL_VALUE = 65;
+    HashMap<String,Object> mapa = new HashMap<>();
+    
 
     /**
      * Creates new form UI
@@ -127,6 +130,7 @@ public class UI extends javax.swing.JFrame {
         I1 = new javax.swing.JTextField();
         jPanel12 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jButton2 = new javax.swing.JButton();
 
         jButton1.setText("jButton1");
 
@@ -148,6 +152,7 @@ public class UI extends javax.swing.JFrame {
         A1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A1.setText("0");
         A1.setName("A1"); // NOI18N
+        mapa.put("A1",A1);
         A1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -157,6 +162,7 @@ public class UI extends javax.swing.JFrame {
         A3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A3.setText("0");
         A3.setName("A3"); // NOI18N
+        mapa.put("A3",A3);
         A3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -167,6 +173,7 @@ public class UI extends javax.swing.JFrame {
         A2.setText("0");
         A2.setToolTipText("");
         A2.setName("A2"); // NOI18N
+        mapa.put("A2",A2);
         A2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -176,6 +183,7 @@ public class UI extends javax.swing.JFrame {
         B3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B3.setText("0");
         B3.setName("B3"); // NOI18N
+        mapa.put("B3",B3);
         B3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -185,6 +193,7 @@ public class UI extends javax.swing.JFrame {
         B2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B2.setText("0");
         B2.setName("B2"); // NOI18N
+        mapa.put("B2",B2);
         B2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -194,6 +203,7 @@ public class UI extends javax.swing.JFrame {
         B1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B1.setText("0");
         B1.setName("B1"); // NOI18N
+        mapa.put("B1",B1);
         B1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -203,6 +213,7 @@ public class UI extends javax.swing.JFrame {
         C3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C3.setText("0");
         C3.setName("C3"); // NOI18N
+        mapa.put("C3",C3);
         C3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -212,6 +223,7 @@ public class UI extends javax.swing.JFrame {
         C2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C2.setText("0");
         C2.setName("C2"); // NOI18N
+        mapa.put("C2",C2);
         C2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -221,6 +233,7 @@ public class UI extends javax.swing.JFrame {
         C1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C1.setText("0");
         C1.setName("C1"); // NOI18N
+        mapa.put("C1",C1);
         C1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -278,6 +291,7 @@ public class UI extends javax.swing.JFrame {
         A7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A7.setText("0");
         A7.setName("A7"); // NOI18N
+        mapa.put("A7",A7);
         A7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -287,6 +301,7 @@ public class UI extends javax.swing.JFrame {
         A9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A9.setText("0");
         A9.setName("A9"); // NOI18N
+        mapa.put("A9",A9);
         A9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -296,6 +311,7 @@ public class UI extends javax.swing.JFrame {
         A8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A8.setText("0");
         A8.setName("A8"); // NOI18N
+        mapa.put("A8",A8);
         A8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -305,6 +321,7 @@ public class UI extends javax.swing.JFrame {
         B9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B9.setText("0");
         B9.setName("B9"); // NOI18N
+        mapa.put("B9",B9);
         B9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -314,6 +331,7 @@ public class UI extends javax.swing.JFrame {
         B8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B8.setText("0");
         B8.setName("B8"); // NOI18N
+        mapa.put("B8",B8);
         B8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -323,6 +341,7 @@ public class UI extends javax.swing.JFrame {
         B7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B7.setText("0");
         B7.setName("B7"); // NOI18N
+        mapa.put("B7",B7);
         B7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -332,6 +351,7 @@ public class UI extends javax.swing.JFrame {
         C9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C9.setText("0");
         C9.setName("C9"); // NOI18N
+        mapa.put("C9",C9);
         C9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -341,6 +361,7 @@ public class UI extends javax.swing.JFrame {
         C8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C8.setText("0");
         C8.setName("C8"); // NOI18N
+        mapa.put("C8",C8);
         C8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -350,6 +371,7 @@ public class UI extends javax.swing.JFrame {
         C7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C7.setText("0");
         C7.setName("C7"); // NOI18N
+        mapa.put("C7",C7);
         C7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -408,6 +430,7 @@ public class UI extends javax.swing.JFrame {
         A4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A4.setText("0");
         A4.setName("A4"); // NOI18N
+        mapa.put("A4",A4);
         A4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -417,6 +440,7 @@ public class UI extends javax.swing.JFrame {
         A6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A6.setText("0");
         A6.setName("A6"); // NOI18N
+        mapa.put("A6",A6);
         A6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -426,6 +450,7 @@ public class UI extends javax.swing.JFrame {
         A5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A5.setText("0");
         A5.setName("A5"); // NOI18N
+        mapa.put("A4",A4);
         A5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -435,6 +460,7 @@ public class UI extends javax.swing.JFrame {
         B6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B6.setText("0");
         B6.setName("B6"); // NOI18N
+        mapa.put("B6",B6);
         B6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -444,6 +470,7 @@ public class UI extends javax.swing.JFrame {
         B5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B5.setText("0");
         B5.setName("B5"); // NOI18N
+        mapa.put("B5",B5);
         B5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -453,6 +480,7 @@ public class UI extends javax.swing.JFrame {
         B4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         B4.setText("0");
         B4.setName("B4"); // NOI18N
+        mapa.put("B4",B4);
         B4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -462,6 +490,7 @@ public class UI extends javax.swing.JFrame {
         C6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C6.setText("0");
         C6.setName("C6"); // NOI18N
+        mapa.put("C6",C6);
         C6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -471,6 +500,7 @@ public class UI extends javax.swing.JFrame {
         C5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C5.setText("0");
         C5.setName("C5"); // NOI18N
+        mapa.put("C5",C5);
         C5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -480,6 +510,7 @@ public class UI extends javax.swing.JFrame {
         C4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         C4.setText("0");
         C4.setName("C4"); // NOI18N
+        mapa.put("C4",C4);
         C4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -538,6 +569,7 @@ public class UI extends javax.swing.JFrame {
         D7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D7.setText("0");
         D7.setName("D7"); // NOI18N
+        mapa.put("D7",D7);
         D7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -547,6 +579,7 @@ public class UI extends javax.swing.JFrame {
         D9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D9.setText("0");
         D9.setName("D9"); // NOI18N
+        mapa.put("D9",D9);
         D9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -556,6 +589,7 @@ public class UI extends javax.swing.JFrame {
         D8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D8.setText("0");
         D8.setName("D8"); // NOI18N
+        mapa.put("D8",D8);
         D8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -565,6 +599,7 @@ public class UI extends javax.swing.JFrame {
         E9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E9.setText("0");
         E9.setName("E9"); // NOI18N
+        mapa.put("E9",E9);
         E9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -574,6 +609,7 @@ public class UI extends javax.swing.JFrame {
         E8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E8.setText("0");
         E8.setName("E8"); // NOI18N
+        mapa.put("E8",E8);
         E8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -583,6 +619,7 @@ public class UI extends javax.swing.JFrame {
         E7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E7.setText("0");
         E7.setName("E7"); // NOI18N
+        mapa.put("E7",E7);
         E7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -592,6 +629,7 @@ public class UI extends javax.swing.JFrame {
         F9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F9.setText("0");
         F9.setName("F9"); // NOI18N
+        mapa.put("F9",F9);
         F9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -601,6 +639,7 @@ public class UI extends javax.swing.JFrame {
         F8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F8.setText("0");
         F8.setName("F8"); // NOI18N
+        mapa.put("F8",F8);
         F8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -610,6 +649,7 @@ public class UI extends javax.swing.JFrame {
         F7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F7.setText("0");
         F7.setName("F7"); // NOI18N
+        mapa.put("F7",F7);
         F7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -668,6 +708,7 @@ public class UI extends javax.swing.JFrame {
         D4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D4.setText("0");
         D4.setName("D4"); // NOI18N
+        mapa.put("D4",D4);
         D4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -677,6 +718,7 @@ public class UI extends javax.swing.JFrame {
         D6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D6.setText("0");
         D6.setName("D6"); // NOI18N
+        mapa.put("D6",D6);
         D6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -686,6 +728,7 @@ public class UI extends javax.swing.JFrame {
         D5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D5.setText("0");
         D5.setName("D5"); // NOI18N
+        mapa.put("D5",D5);
         D5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -695,6 +738,7 @@ public class UI extends javax.swing.JFrame {
         E6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E6.setText("0");
         E6.setName("E6"); // NOI18N
+        mapa.put("E6",E6);
         E6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -704,6 +748,7 @@ public class UI extends javax.swing.JFrame {
         E5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E5.setText("0");
         E5.setName("E5"); // NOI18N
+        mapa.put("E5",E5);
         E5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -713,6 +758,7 @@ public class UI extends javax.swing.JFrame {
         E4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E4.setText("0");
         E4.setName("E4"); // NOI18N
+        mapa.put("E4",E4);
         E4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -722,6 +768,7 @@ public class UI extends javax.swing.JFrame {
         F6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F6.setText("0");
         F6.setName("F6"); // NOI18N
+        mapa.put("F6",F6);
         F6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -731,6 +778,7 @@ public class UI extends javax.swing.JFrame {
         F5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F5.setText("0");
         F5.setName("F5"); // NOI18N
+        mapa.put("F5",F5);
         F5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -740,6 +788,7 @@ public class UI extends javax.swing.JFrame {
         F4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F4.setText("0");
         F4.setName("F4"); // NOI18N
+        mapa.put("F4",F4);
         F4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -798,6 +847,7 @@ public class UI extends javax.swing.JFrame {
         D1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D1.setText("0");
         D1.setName("D1"); // NOI18N
+        mapa.put("D1",D1);
         D1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -807,6 +857,7 @@ public class UI extends javax.swing.JFrame {
         D3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D3.setText("0");
         D3.setName("D3"); // NOI18N
+        mapa.put("D3",D3);
         D3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -816,6 +867,7 @@ public class UI extends javax.swing.JFrame {
         D2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D2.setText("0");
         D2.setName("D2"); // NOI18N
+        mapa.put("D1",D1);
         D2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -825,6 +877,7 @@ public class UI extends javax.swing.JFrame {
         E3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E3.setText("0");
         E3.setName("E3"); // NOI18N
+        mapa.put("E3",E3);
         E3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -834,6 +887,7 @@ public class UI extends javax.swing.JFrame {
         E2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E2.setText("0");
         E2.setName("E2"); // NOI18N
+        mapa.put("E2",E2);
         E2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -843,6 +897,7 @@ public class UI extends javax.swing.JFrame {
         E1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         E1.setText("0");
         E1.setName("E1"); // NOI18N
+        mapa.put("E1",E1);
         E1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -852,6 +907,7 @@ public class UI extends javax.swing.JFrame {
         F3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F3.setText("0");
         F3.setName("F3"); // NOI18N
+        mapa.put("F3",F3);
         F3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -861,6 +917,7 @@ public class UI extends javax.swing.JFrame {
         F2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F2.setText("0");
         F2.setName("F2"); // NOI18N
+        mapa.put("F2",F2);
         F2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -870,6 +927,7 @@ public class UI extends javax.swing.JFrame {
         F1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         F1.setText("0");
         F1.setName("F1"); // NOI18N
+        mapa.put("F1",F1);
         F1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -927,6 +985,7 @@ public class UI extends javax.swing.JFrame {
         G7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G7.setText("0");
         G7.setName("G7"); // NOI18N
+        mapa.put("G7",G7);
         G7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -936,6 +995,7 @@ public class UI extends javax.swing.JFrame {
         G9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G9.setText("0");
         G9.setName("G9"); // NOI18N
+        mapa.put("G9",G9);
         G9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -945,6 +1005,7 @@ public class UI extends javax.swing.JFrame {
         G8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G8.setText("0");
         G8.setName("G8"); // NOI18N
+        mapa.put("G8",G8);
         G8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -954,6 +1015,7 @@ public class UI extends javax.swing.JFrame {
         H9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H9.setText("0");
         H9.setName("H9"); // NOI18N
+        mapa.put("H9",H9);
         H9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -963,6 +1025,7 @@ public class UI extends javax.swing.JFrame {
         H8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H8.setText("0");
         H8.setName("H8"); // NOI18N
+        mapa.put("H8",H8);
         H8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -972,6 +1035,7 @@ public class UI extends javax.swing.JFrame {
         H7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H7.setText("0");
         H7.setName("H7"); // NOI18N
+        mapa.put("H7",H7);
         H7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -981,6 +1045,7 @@ public class UI extends javax.swing.JFrame {
         I9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I9.setText("0");
         I9.setName("I9"); // NOI18N
+        mapa.put("I9",I9);
         I9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -990,6 +1055,7 @@ public class UI extends javax.swing.JFrame {
         I8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I8.setText("0");
         I8.setName("I8"); // NOI18N
+        mapa.put("I8",I8);
         I8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -999,6 +1065,7 @@ public class UI extends javax.swing.JFrame {
         I7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I7.setText("0");
         I7.setName("I7"); // NOI18N
+        mapa.put("I7",I7);
         I7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1057,6 +1124,7 @@ public class UI extends javax.swing.JFrame {
         G4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G4.setText("0");
         G4.setName("G4"); // NOI18N
+        mapa.put("G4",G4);
         G4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1066,6 +1134,7 @@ public class UI extends javax.swing.JFrame {
         G6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G6.setText("0");
         G6.setName("G6"); // NOI18N
+        mapa.put("G6",G6);
         G6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1075,6 +1144,7 @@ public class UI extends javax.swing.JFrame {
         G5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G5.setText("0");
         G5.setName("G5"); // NOI18N
+        mapa.put("G5",G5);
         G5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1084,6 +1154,7 @@ public class UI extends javax.swing.JFrame {
         H6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H6.setText("0");
         H6.setName("H6"); // NOI18N
+        mapa.put("H6",H6);
         H6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1093,6 +1164,7 @@ public class UI extends javax.swing.JFrame {
         H5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H5.setText("0");
         H5.setName("H5"); // NOI18N
+        mapa.put("H5",H5);
         H5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1102,6 +1174,7 @@ public class UI extends javax.swing.JFrame {
         H4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H4.setText("0");
         H4.setName("H4"); // NOI18N
+        mapa.put("H4",H4);
         H4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1111,6 +1184,7 @@ public class UI extends javax.swing.JFrame {
         I6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I6.setText("0");
         I6.setName("I6"); // NOI18N
+        mapa.put("I6",I6);
         I6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1120,6 +1194,7 @@ public class UI extends javax.swing.JFrame {
         I5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I5.setText("0");
         I5.setName("I5"); // NOI18N
+        mapa.put("I5",I5);
         I5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1129,6 +1204,7 @@ public class UI extends javax.swing.JFrame {
         I4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I4.setText("0");
         I4.setName("I4"); // NOI18N
+        mapa.put("I4",I4);
         I4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1187,6 +1263,7 @@ public class UI extends javax.swing.JFrame {
         G1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G1.setText("0");
         G1.setName("G1"); // NOI18N
+        mapa.put("G1",G1);
         G1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1196,6 +1273,7 @@ public class UI extends javax.swing.JFrame {
         G3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G3.setText("0");
         G3.setName("G3"); // NOI18N
+        mapa.put("G3",G3);
         G3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1205,6 +1283,7 @@ public class UI extends javax.swing.JFrame {
         G2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         G2.setText("0");
         G2.setName("G2"); // NOI18N
+        mapa.put("G2",G2);
         G2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1214,6 +1293,7 @@ public class UI extends javax.swing.JFrame {
         H3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H3.setText("0");
         H3.setName("H3"); // NOI18N
+        mapa.put("H3",H3);
         H3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1223,6 +1303,7 @@ public class UI extends javax.swing.JFrame {
         H2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H2.setText("0");
         H2.setName("H2"); // NOI18N
+        mapa.put("H2",H2);
         H2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1232,6 +1313,7 @@ public class UI extends javax.swing.JFrame {
         H1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         H1.setText("0");
         H1.setName("H1"); // NOI18N
+        mapa.put("H1",H1);
         H1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1241,6 +1323,7 @@ public class UI extends javax.swing.JFrame {
         I3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I3.setText("0");
         I3.setName("I3"); // NOI18N
+        mapa.put("I3",I3);
         I3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1250,6 +1333,7 @@ public class UI extends javax.swing.JFrame {
         I2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I2.setText("0");
         I2.setName("I2"); // NOI18N
+        mapa.put("I2",I2);
         I2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1259,6 +1343,7 @@ public class UI extends javax.swing.JFrame {
         I1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         I1.setText("0");
         I1.setName("I1"); // NOI18N
+        mapa.put("I1",I1);
         I1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1360,6 +1445,14 @@ public class UI extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel1.setText("Sudoku Cool ");
 
+        jButton2.setText("Resuelve");
+        jButton2.setToolTipText("");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
@@ -1368,12 +1461,18 @@ public class UI extends javax.swing.JFrame {
                 .addContainerGap(24, Short.MAX_VALUE)
                 .addComponent(jLabel1)
                 .addGap(21, 21, 21))
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGap(42, 42, 42)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 101, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
+                .addGap(18, 18, 18)
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1410,14 +1509,25 @@ public class UI extends javax.swing.JFrame {
         int inputValue = Integer.parseInt(evt.getActionCommand());
 
         System.out.println("fila " + (indexRow) + " columna " + indexCol);
-        //Sudoku2.actualizarValorEnCuadro(indexRow,indexCol, inputValue);
+        boolean success;
 
+        if (inputValue > 0 && inputValue < 10){
+             success = Sudoku2.actualizarValorEnCuadro(Sudoku2.matrizMaestra,indexRow,indexCol, inputValue);
+        }
+
+        if (!success){
+            System.out.println("Error");
+        }
         //TODO: Invocar advertencia en caso de que acutalizarVal de false
         //TODO: Validar que sea un digito 1 <= n <= 9
 
 
 
     }//GEN-LAST:event_squareModified
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1537,6 +1647,7 @@ public class UI extends javax.swing.JFrame {
     private javax.swing.JTextField I8;
     private javax.swing.JTextField I9;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;

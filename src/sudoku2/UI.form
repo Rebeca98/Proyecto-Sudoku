@@ -194,6 +194,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A1&quot;,A1); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="A3">
               <Properties>
@@ -204,6 +207,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A3&quot;,A3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="A2">
               <Properties>
@@ -215,6 +221,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A2&quot;,A2); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B3">
               <Properties>
@@ -225,6 +234,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B3&quot;,B3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B2">
               <Properties>
@@ -235,6 +247,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B2&quot;,B2); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B1">
               <Properties>
@@ -245,6 +260,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B1&quot;,B1); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C3">
               <Properties>
@@ -255,6 +273,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C3&quot;,C3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C2">
               <Properties>
@@ -265,6 +286,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C2&quot;,C2); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C1">
               <Properties>
@@ -275,6 +299,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C1&quot;,C1); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -354,6 +381,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A7&quot;,A7); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="A9">
               <Properties>
@@ -364,6 +394,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A9&quot;,A9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="A8">
               <Properties>
@@ -374,6 +407,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A8&quot;,A8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B9">
               <Properties>
@@ -384,6 +420,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B9&quot;,B9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B8">
               <Properties>
@@ -394,6 +433,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B8&quot;,B8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B7">
               <Properties>
@@ -404,6 +446,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B7&quot;,B7); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C9">
               <Properties>
@@ -414,6 +459,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C9&quot;,C9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C8">
               <Properties>
@@ -424,6 +472,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C8&quot;,C8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C7">
               <Properties>
@@ -434,6 +485,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C7&quot;,C7); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -513,6 +567,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A4&quot;,A4); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="A6">
               <Properties>
@@ -523,6 +580,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A6&quot;,A6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="A5">
               <Properties>
@@ -533,6 +593,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;A4&quot;,A4); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B6">
               <Properties>
@@ -543,6 +606,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B6&quot;,B6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B5">
               <Properties>
@@ -553,6 +619,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B5&quot;,B5); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="B4">
               <Properties>
@@ -563,6 +632,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;B4&quot;,B4); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C6">
               <Properties>
@@ -573,6 +645,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C6&quot;,C6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C5">
               <Properties>
@@ -583,6 +658,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C5&quot;,C5); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="C4">
               <Properties>
@@ -593,6 +671,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;C4&quot;,C4); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -672,6 +753,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D7&quot;,D7); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="D9">
               <Properties>
@@ -682,6 +766,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D9&quot;,D9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="D8">
               <Properties>
@@ -692,6 +779,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D8&quot;,D8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E9">
               <Properties>
@@ -702,6 +792,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E9&quot;,E9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E8">
               <Properties>
@@ -712,6 +805,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E8&quot;,E8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E7">
               <Properties>
@@ -722,6 +818,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E7&quot;,E7); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F9">
               <Properties>
@@ -732,6 +831,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F9&quot;,F9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F8">
               <Properties>
@@ -742,6 +844,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F8&quot;,F8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F7">
               <Properties>
@@ -752,6 +857,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F7&quot;,F7); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -831,6 +939,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D4&quot;,D4); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="D6">
               <Properties>
@@ -841,6 +952,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D6&quot;,D6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="D5">
               <Properties>
@@ -851,6 +965,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D5&quot;,D5); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E6">
               <Properties>
@@ -861,6 +978,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E6&quot;,E6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E5">
               <Properties>
@@ -871,6 +991,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E5&quot;,E5); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E4">
               <Properties>
@@ -881,6 +1004,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E4&quot;,E4); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F6">
               <Properties>
@@ -891,6 +1017,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F6&quot;,F6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F5">
               <Properties>
@@ -901,6 +1030,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F5&quot;,F5); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F4">
               <Properties>
@@ -911,6 +1043,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F4&quot;,F4); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -987,6 +1122,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D1&quot;,D1); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="D3">
               <Properties>
@@ -997,6 +1135,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D3&quot;,D3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="D2">
               <Properties>
@@ -1007,6 +1148,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;D1&quot;,D1); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E3">
               <Properties>
@@ -1017,6 +1161,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E3&quot;,E3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E2">
               <Properties>
@@ -1027,6 +1174,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E2&quot;,E2); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="E1">
               <Properties>
@@ -1037,6 +1187,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;E1&quot;,E1); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F3">
               <Properties>
@@ -1047,6 +1200,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F3&quot;,F3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F2">
               <Properties>
@@ -1057,6 +1213,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F2&quot;,F2); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="F1">
               <Properties>
@@ -1067,6 +1226,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;F1&quot;,F1); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -1146,6 +1308,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G7&quot;,G7); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="G9">
               <Properties>
@@ -1156,6 +1321,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G9&quot;,G9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="G8">
               <Properties>
@@ -1166,6 +1334,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G8&quot;,G8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H9">
               <Properties>
@@ -1176,6 +1347,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H9&quot;,H9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H8">
               <Properties>
@@ -1186,6 +1360,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H8&quot;,H8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H7">
               <Properties>
@@ -1196,6 +1373,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H7&quot;,H7); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I9">
               <Properties>
@@ -1206,6 +1386,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I9&quot;,I9); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I8">
               <Properties>
@@ -1216,6 +1399,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I8&quot;,I8); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I7">
               <Properties>
@@ -1226,6 +1412,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I7&quot;,I7); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -1305,6 +1494,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G4&quot;,G4); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="G6">
               <Properties>
@@ -1315,6 +1507,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G6&quot;,G6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="G5">
               <Properties>
@@ -1325,6 +1520,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G5&quot;,G5); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H6">
               <Properties>
@@ -1335,6 +1533,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H6&quot;,H6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H5">
               <Properties>
@@ -1345,6 +1546,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H5&quot;,H5); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H4">
               <Properties>
@@ -1355,6 +1559,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H4&quot;,H4); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I6">
               <Properties>
@@ -1365,6 +1572,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I6&quot;,I6); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I5">
               <Properties>
@@ -1375,6 +1585,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I5&quot;,I5); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I4">
               <Properties>
@@ -1385,6 +1598,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I4&quot;,I4); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -1461,6 +1677,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G1&quot;,G1); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="G3">
               <Properties>
@@ -1471,6 +1690,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G3&quot;,G3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="G2">
               <Properties>
@@ -1481,6 +1703,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;G2&quot;,G2); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H3">
               <Properties>
@@ -1491,6 +1716,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H3&quot;,H3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H2">
               <Properties>
@@ -1501,6 +1729,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H2&quot;,H2); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="H1">
               <Properties>
@@ -1511,6 +1742,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;H1&quot;,H1); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I3">
               <Properties>
@@ -1521,6 +1755,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I3&quot;,I3); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I2">
               <Properties>
@@ -1531,6 +1768,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I2&quot;,I2); "/>
+              </AuxValues>
             </Component>
             <Component class="javax.swing.JTextField" name="I1">
               <Properties>
@@ -1541,6 +1781,9 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareModified"/>
               </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="mapa.put(&quot;I1&quot;,I1); "/>
+              </AuxValues>
             </Component>
           </SubComponents>
         </Container>
@@ -1563,6 +1806,11 @@
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
               </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" pref="101" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
@@ -1570,6 +1818,8 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" pref="44" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -1583,6 +1833,15 @@
             </Property>
             <Property name="text" type="java.lang.String" value="Sudoku Cool "/>
           </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Resuelve"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>

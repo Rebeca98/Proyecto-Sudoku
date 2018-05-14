@@ -50,12 +50,10 @@ public class Sudoku2 {
      */
     public static void main(String[] args) {
 
-        //UI.main(args);
+        UI.main(args);
         setupSudoku();
-        //resueveTablero();
-        //muestraTablero();
+
         System.out.println("Resulución: \n \n  ");
-        //resuelveRecursivo(0,0);
         muestraTablero(matrizMaestra);
         resuelve(matrizMaestra,0,0);
         muestraTablero(matrizMaestra);
@@ -111,7 +109,6 @@ public class Sudoku2 {
 
             return true;
         }else{
-            System.out.println("Violación!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
             return false;
         }
 
@@ -154,6 +151,7 @@ public class Sudoku2 {
 
     public static boolean resuelve(int[][] sudo, int row, int col){
         System.out.println("Parado en " + row + (col+1)  );
+        boolean brinca = col + 1 < dim;
 
         if (row >= dim){
             return true;
