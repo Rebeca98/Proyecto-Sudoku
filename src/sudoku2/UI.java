@@ -14,7 +14,7 @@ import java.util.HashMap;
  */
 public class UI extends javax.swing.JFrame {
     private static final int ASCII_INITIAL_VALUE = 65;
-    HashMap<String,Object> mapa = new HashMap<>();
+    public static HashMap<String,JTextField> mapa = new HashMap<>();
     
 
     /**
@@ -450,7 +450,7 @@ public class UI extends javax.swing.JFrame {
         A5.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         A5.setText("0");
         A5.setName("A5"); // NOI18N
-        mapa.put("A4",A4);
+        mapa.put("A5",A5);
         A5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -867,7 +867,7 @@ public class UI extends javax.swing.JFrame {
         D2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         D2.setText("0");
         D2.setName("D2"); // NOI18N
-        mapa.put("D1",D1);
+        mapa.put("D2",D2);
         D2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 squareModified(evt);
@@ -1509,7 +1509,7 @@ public class UI extends javax.swing.JFrame {
         int inputValue = Integer.parseInt(evt.getActionCommand());
 
         System.out.println("fila " + (indexRow) + " columna " + indexCol);
-        boolean success;
+        boolean success = false;
 
         if (inputValue > 0 && inputValue < 10){
              success = Sudoku2.actualizarValorEnCuadro(Sudoku2.matrizMaestra,indexRow,indexCol, inputValue);
@@ -1526,7 +1526,9 @@ public class UI extends javax.swing.JFrame {
     }//GEN-LAST:event_squareModified
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-        // TODO add your handling code here:
+        Sudoku2.iniciaResolucion(Sudoku2.matrizMaestra);
+        Sudoku2.resuelve(Sudoku2.matrizMaestra,0,0);
+        Sudoku2.muestraTablero(Sudoku2.matrizMaestra);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

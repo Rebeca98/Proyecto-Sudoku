@@ -3,94 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0dbb03e8-d9a7-4d55-9912-2219026048ab" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/ArraySet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/ArraySet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/SetADT.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/SetADT.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/Sudoku2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/Sudoku2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$31.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$31.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$32.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$32.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$33.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$33.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$34.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$34.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$35.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$35.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$36.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$36.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$37.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$37.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$38.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$38.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$39.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$39.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$40.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$40.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$41.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$41.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$42.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$42.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$43.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$43.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$44.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$44.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$45.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$45.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$46.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$46.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$47.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$47.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$48.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$48.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$49.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$49.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$50.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$50.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$51.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$51.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$52.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$52.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$53.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$53.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$54.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$54.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$55.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$55.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$56.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$56.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$57.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$57.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$58.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$58.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$59.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$59.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$60.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$60.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$61.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$61.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$62.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$62.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$63.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$63.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$64.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$64.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$65.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$65.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$66.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$66.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$67.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$67.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$68.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$68.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$69.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$69.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$70.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$70.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$71.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$71.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$72.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$72.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$73.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$73.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$74.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$74.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$75.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$75.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$76.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$76.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$77.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$77.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$78.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$78.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$79.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$79.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$80.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$80.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$81.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$81.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI$82.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI$82.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/sudoku2/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/sudoku2/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/Sudoku2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/Sudoku2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/Sudoku2.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$11.class" afterDir="false" />
@@ -172,10 +85,10 @@
       <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$80.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$80.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$81.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$81.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$82.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$82.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$83.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$83.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proyecto-sudoku/sudoku2/UI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sudoku2/UI.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/UI.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sudoku2/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku2/UI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -191,8 +104,8 @@
       <file leaf-file-name="SetADT.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/SetADT.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1265">
-              <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="1196">
+              <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -200,14 +113,13 @@
       <file leaf-file-name="ArraySet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/ArraySet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="4209">
+              <caret line="257" column="46" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
               <folding>
                 <element signature="method#removeRandom#0;class#ArraySet#0" />
                 <element signature="method#remove#0;class#ArraySet#0" />
                 <element signature="method#contains#0;class#ArraySet#0" />
                 <element signature="method#expandCapacity#0;class#ArraySet#0" />
-                <element signature="method#listItems#0;class#ArraySet#0" />
               </folding>
             </state>
           </provider>
@@ -216,11 +128,15 @@
       <file leaf-file-name="Sudoku2.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="149" column="5" lean-forward="true" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+            <state relative-caret-position="297">
+              <caret line="131" column="27" lean-forward="true" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#setupSudoku#0;class#Sudoku2#0" />
+                <element signature="method#resuelve#0;class#Sudoku2#0" />
+                <element signature="method#getMarkup#0;class#Sudoku2#0" />
                 <element signature="method#muestraTablero#0;class#Sudoku2#0" />
+                <element signature="method#actualizaConjuntos#0;class#Sudoku2#0" />
               </folding>
             </state>
           </provider>
@@ -229,174 +145,22 @@
       <file leaf-file-name="UI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="1518" column="40" lean-forward="true" selection-start-line="1518" selection-start-column="40" selection-end-line="1518" selection-end-column="40" />
+            <state relative-caret-position="98">
+              <caret line="869" column="24" selection-start-line="869" selection-start-column="24" selection-end-line="869" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#819#849#0" expanded="true" />
-                <element signature="e#854#943#0" expanded="true" />
-                <element signature="e#605#81233#0" />
-                <element signature="e#6152#6153#0" expanded="true" />
-                <element signature="e#6203#6204#0" expanded="true" />
-                <element signature="e#6511#6512#0" expanded="true" />
-                <element signature="e#6562#6563#0" expanded="true" />
-                <element signature="e#6901#6902#0" expanded="true" />
-                <element signature="e#6952#6953#0" expanded="true" />
-                <element signature="e#7260#7261#0" expanded="true" />
-                <element signature="e#7311#7312#0" expanded="true" />
-                <element signature="e#7619#7620#0" expanded="true" />
-                <element signature="e#7670#7671#0" expanded="true" />
-                <element signature="e#7978#7979#0" expanded="true" />
-                <element signature="e#8029#8030#0" expanded="true" />
-                <element signature="e#8337#8338#0" expanded="true" />
-                <element signature="e#8388#8389#0" expanded="true" />
-                <element signature="e#8696#8697#0" expanded="true" />
-                <element signature="e#8747#8748#0" expanded="true" />
-                <element signature="e#9055#9056#0" expanded="true" />
-                <element signature="e#9106#9107#0" expanded="true" />
-                <element signature="e#13675#13676#0" expanded="true" />
-                <element signature="e#13726#13727#0" expanded="true" />
-                <element signature="e#14034#14035#0" expanded="true" />
-                <element signature="e#14085#14086#0" expanded="true" />
-                <element signature="e#14393#14394#0" expanded="true" />
-                <element signature="e#14444#14445#0" expanded="true" />
-                <element signature="e#14752#14753#0" expanded="true" />
-                <element signature="e#14803#14804#0" expanded="true" />
-                <element signature="e#15111#15112#0" expanded="true" />
-                <element signature="e#15162#15163#0" expanded="true" />
-                <element signature="e#15470#15471#0" expanded="true" />
-                <element signature="e#15521#15522#0" expanded="true" />
-                <element signature="e#15829#15830#0" expanded="true" />
-                <element signature="e#15880#15881#0" expanded="true" />
-                <element signature="e#16188#16189#0" expanded="true" />
-                <element signature="e#16239#16240#0" expanded="true" />
-                <element signature="e#16547#16548#0" expanded="true" />
-                <element signature="e#16598#16599#0" expanded="true" />
-                <element signature="e#21361#21362#0" expanded="true" />
-                <element signature="e#21412#21413#0" expanded="true" />
-                <element signature="e#21720#21721#0" expanded="true" />
-                <element signature="e#21771#21772#0" expanded="true" />
-                <element signature="e#22079#22080#0" expanded="true" />
-                <element signature="e#22130#22131#0" expanded="true" />
-                <element signature="e#22438#22439#0" expanded="true" />
-                <element signature="e#22489#22490#0" expanded="true" />
-                <element signature="e#22797#22798#0" expanded="true" />
-                <element signature="e#22848#22849#0" expanded="true" />
-                <element signature="e#23156#23157#0" expanded="true" />
-                <element signature="e#23207#23208#0" expanded="true" />
-                <element signature="e#23515#23516#0" expanded="true" />
-                <element signature="e#23566#23567#0" expanded="true" />
-                <element signature="e#23874#23875#0" expanded="true" />
-                <element signature="e#23925#23926#0" expanded="true" />
-                <element signature="e#24233#24234#0" expanded="true" />
-                <element signature="e#24284#24285#0" expanded="true" />
-                <element signature="e#29047#29048#0" expanded="true" />
-                <element signature="e#29098#29099#0" expanded="true" />
-                <element signature="e#29406#29407#0" expanded="true" />
-                <element signature="e#29457#29458#0" expanded="true" />
-                <element signature="e#29765#29766#0" expanded="true" />
-                <element signature="e#29816#29817#0" expanded="true" />
-                <element signature="e#30124#30125#0" expanded="true" />
-                <element signature="e#30175#30176#0" expanded="true" />
-                <element signature="e#30483#30484#0" expanded="true" />
-                <element signature="e#30534#30535#0" expanded="true" />
-                <element signature="e#30842#30843#0" expanded="true" />
-                <element signature="e#30893#30894#0" expanded="true" />
-                <element signature="e#31201#31202#0" expanded="true" />
-                <element signature="e#31252#31253#0" expanded="true" />
-                <element signature="e#31560#31561#0" expanded="true" />
-                <element signature="e#31611#31612#0" expanded="true" />
-                <element signature="e#31919#31920#0" expanded="true" />
-                <element signature="e#31970#31971#0" expanded="true" />
-                <element signature="e#36733#36734#0" expanded="true" />
-                <element signature="e#36784#36785#0" expanded="true" />
-                <element signature="e#37092#37093#0" expanded="true" />
-                <element signature="e#37143#37144#0" expanded="true" />
-                <element signature="e#37451#37452#0" expanded="true" />
-                <element signature="e#37502#37503#0" expanded="true" />
-                <element signature="e#37810#37811#0" expanded="true" />
-                <element signature="e#37861#37862#0" expanded="true" />
-                <element signature="e#38169#38170#0" expanded="true" />
-                <element signature="e#38220#38221#0" expanded="true" />
-                <element signature="e#38528#38529#0" expanded="true" />
-                <element signature="e#38579#38580#0" expanded="true" />
-                <element signature="e#38887#38888#0" expanded="true" />
-                <element signature="e#38938#38939#0" expanded="true" />
-                <element signature="e#39246#39247#0" expanded="true" />
-                <element signature="e#39297#39298#0" expanded="true" />
-                <element signature="e#39605#39606#0" expanded="true" />
-                <element signature="e#39656#39657#0" expanded="true" />
-                <element signature="e#44419#44420#0" expanded="true" />
-                <element signature="e#44470#44471#0" expanded="true" />
-                <element signature="e#44778#44779#0" expanded="true" />
-                <element signature="e#44829#44830#0" expanded="true" />
-                <element signature="e#45137#45138#0" expanded="true" />
-                <element signature="e#45188#45189#0" expanded="true" />
-                <element signature="e#45496#45497#0" expanded="true" />
-                <element signature="e#45547#45548#0" expanded="true" />
-                <element signature="e#45855#45856#0" expanded="true" />
-                <element signature="e#45906#45907#0" expanded="true" />
-                <element signature="e#46214#46215#0" expanded="true" />
-                <element signature="e#46265#46266#0" expanded="true" />
-                <element signature="e#46573#46574#0" expanded="true" />
-                <element signature="e#46624#46625#0" expanded="true" />
-                <element signature="e#46932#46933#0" expanded="true" />
-                <element signature="e#46983#46984#0" expanded="true" />
-                <element signature="e#47291#47292#0" expanded="true" />
-                <element signature="e#47342#47343#0" expanded="true" />
-                <element signature="e#51911#51912#0" expanded="true" />
-                <element signature="e#51962#51963#0" expanded="true" />
-                <element signature="e#52270#52271#0" expanded="true" />
-                <element signature="e#52321#52322#0" expanded="true" />
-                <element signature="e#52629#52630#0" expanded="true" />
-                <element signature="e#52680#52681#0" expanded="true" />
-                <element signature="e#52988#52989#0" expanded="true" />
-                <element signature="e#53039#53040#0" expanded="true" />
-                <element signature="e#53347#53348#0" expanded="true" />
-                <element signature="e#53398#53399#0" expanded="true" />
-                <element signature="e#53706#53707#0" expanded="true" />
-                <element signature="e#53757#53758#0" expanded="true" />
-                <element signature="e#54065#54066#0" expanded="true" />
-                <element signature="e#54116#54117#0" expanded="true" />
-                <element signature="e#54424#54425#0" expanded="true" />
-                <element signature="e#54475#54476#0" expanded="true" />
-                <element signature="e#54783#54784#0" expanded="true" />
-                <element signature="e#54834#54835#0" expanded="true" />
-                <element signature="e#59597#59598#0" expanded="true" />
-                <element signature="e#59648#59649#0" expanded="true" />
-                <element signature="e#59956#59957#0" expanded="true" />
-                <element signature="e#60007#60008#0" expanded="true" />
-                <element signature="e#60315#60316#0" expanded="true" />
-                <element signature="e#60366#60367#0" expanded="true" />
-                <element signature="e#60674#60675#0" expanded="true" />
-                <element signature="e#60725#60726#0" expanded="true" />
-                <element signature="e#61033#61034#0" expanded="true" />
-                <element signature="e#61084#61085#0" expanded="true" />
-                <element signature="e#61392#61393#0" expanded="true" />
-                <element signature="e#61443#61444#0" expanded="true" />
-                <element signature="e#61751#61752#0" expanded="true" />
-                <element signature="e#61802#61803#0" expanded="true" />
-                <element signature="e#62110#62111#0" expanded="true" />
-                <element signature="e#62161#62162#0" expanded="true" />
-                <element signature="e#62469#62470#0" expanded="true" />
-                <element signature="e#62520#62521#0" expanded="true" />
-                <element signature="e#67284#67285#0" expanded="true" />
-                <element signature="e#67335#67336#0" expanded="true" />
-                <element signature="e#67643#67644#0" expanded="true" />
-                <element signature="e#67694#67695#0" expanded="true" />
-                <element signature="e#68002#68003#0" expanded="true" />
-                <element signature="e#68053#68054#0" expanded="true" />
-                <element signature="e#68361#68362#0" expanded="true" />
-                <element signature="e#68412#68413#0" expanded="true" />
-                <element signature="e#68720#68721#0" expanded="true" />
-                <element signature="e#68771#68772#0" expanded="true" />
-                <element signature="e#69079#69080#0" expanded="true" />
-                <element signature="e#69130#69131#0" expanded="true" />
-                <element signature="e#69438#69439#0" expanded="true" />
-                <element signature="e#69489#69490#0" expanded="true" />
-                <element signature="e#69797#69798#0" expanded="true" />
-                <element signature="e#69848#69849#0" expanded="true" />
+                <element signature="e#79441#79442#0" expanded="true" />
+                <element signature="e#79501#79502#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -407,6 +171,9 @@
     <findStrings>
       <find>A1</find>
       <find>matrizMaestra</find>
+      <find>F6</find>
+      <find>C3</find>
+      <find>&quot;D2&quot;</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -419,16 +186,15 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/sudoku2/SetADT.java" />
         <option value="$PROJECT_DIR$/src/sudoku2/ArraySet.java" />
-        <option value="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" />
         <option value="$PROJECT_DIR$/src/sudoku2/UI.java" />
+        <option value="$PROJECT_DIR$/src/sudoku2/Sudoku2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-31" />
-    <option name="y" value="-10" />
-    <option name="width" value="1378" />
-    <option name="height" value="751" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -436,7 +202,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -459,6 +224,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -467,7 +233,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="Console" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -483,7 +249,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files (x86)/Java/jre1.8.0_171" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jre1.8.0_171" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="sudoku2.Sudoku2" />
       <module name="proyecto-sudoku" />
@@ -554,49 +320,68 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.34158415" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280507" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32850242" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5143824" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50619197" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14901665" />
-      <window_info id="Learn" order="2" weight="0.32980332" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.14674735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.8180354" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.69195044" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24962178" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.34158415" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5143824" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8180354" />
+      <window_info id="Learn" order="2" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32838285" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14901665" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9543974" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16764276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9543974" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -606,7 +391,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.8208469" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -620,7 +405,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="29" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -940,29 +725,34 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="89" selection-start-line="7" selection-start-column="89" selection-end-line="7" selection-end-column="89" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/SetADT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1265">
-          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        <state relative-caret-position="1196">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/ArraySet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="4209">
+          <caret line="257" column="46" selection-start-line="257" selection-start-column="46" selection-end-line="257" selection-end-column="46" />
           <folding>
             <element signature="method#removeRandom#0;class#ArraySet#0" />
             <element signature="method#remove#0;class#ArraySet#0" />
             <element signature="method#contains#0;class#ArraySet#0" />
             <element signature="method#expandCapacity#0;class#ArraySet#0" />
-            <element signature="method#listItems#0;class#ArraySet#0" />
           </folding>
         </state>
       </provider>
@@ -970,184 +760,26 @@
     <entry file="file://$PROJECT_DIR$/../COM-11102-Estructuras-de-Datos/Sudoku/src/sudoku/Sudoku.java" />
     <entry file="file://$PROJECT_DIR$/src/sudoku2/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="1518" column="40" lean-forward="true" selection-start-line="1518" selection-start-column="40" selection-end-line="1518" selection-end-column="40" />
+        <state relative-caret-position="98">
+          <caret line="869" column="24" selection-start-line="869" selection-start-column="24" selection-end-line="869" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#819#849#0" expanded="true" />
-            <element signature="e#854#943#0" expanded="true" />
-            <element signature="e#605#81233#0" />
-            <element signature="e#6152#6153#0" expanded="true" />
-            <element signature="e#6203#6204#0" expanded="true" />
-            <element signature="e#6511#6512#0" expanded="true" />
-            <element signature="e#6562#6563#0" expanded="true" />
-            <element signature="e#6901#6902#0" expanded="true" />
-            <element signature="e#6952#6953#0" expanded="true" />
-            <element signature="e#7260#7261#0" expanded="true" />
-            <element signature="e#7311#7312#0" expanded="true" />
-            <element signature="e#7619#7620#0" expanded="true" />
-            <element signature="e#7670#7671#0" expanded="true" />
-            <element signature="e#7978#7979#0" expanded="true" />
-            <element signature="e#8029#8030#0" expanded="true" />
-            <element signature="e#8337#8338#0" expanded="true" />
-            <element signature="e#8388#8389#0" expanded="true" />
-            <element signature="e#8696#8697#0" expanded="true" />
-            <element signature="e#8747#8748#0" expanded="true" />
-            <element signature="e#9055#9056#0" expanded="true" />
-            <element signature="e#9106#9107#0" expanded="true" />
-            <element signature="e#13675#13676#0" expanded="true" />
-            <element signature="e#13726#13727#0" expanded="true" />
-            <element signature="e#14034#14035#0" expanded="true" />
-            <element signature="e#14085#14086#0" expanded="true" />
-            <element signature="e#14393#14394#0" expanded="true" />
-            <element signature="e#14444#14445#0" expanded="true" />
-            <element signature="e#14752#14753#0" expanded="true" />
-            <element signature="e#14803#14804#0" expanded="true" />
-            <element signature="e#15111#15112#0" expanded="true" />
-            <element signature="e#15162#15163#0" expanded="true" />
-            <element signature="e#15470#15471#0" expanded="true" />
-            <element signature="e#15521#15522#0" expanded="true" />
-            <element signature="e#15829#15830#0" expanded="true" />
-            <element signature="e#15880#15881#0" expanded="true" />
-            <element signature="e#16188#16189#0" expanded="true" />
-            <element signature="e#16239#16240#0" expanded="true" />
-            <element signature="e#16547#16548#0" expanded="true" />
-            <element signature="e#16598#16599#0" expanded="true" />
-            <element signature="e#21361#21362#0" expanded="true" />
-            <element signature="e#21412#21413#0" expanded="true" />
-            <element signature="e#21720#21721#0" expanded="true" />
-            <element signature="e#21771#21772#0" expanded="true" />
-            <element signature="e#22079#22080#0" expanded="true" />
-            <element signature="e#22130#22131#0" expanded="true" />
-            <element signature="e#22438#22439#0" expanded="true" />
-            <element signature="e#22489#22490#0" expanded="true" />
-            <element signature="e#22797#22798#0" expanded="true" />
-            <element signature="e#22848#22849#0" expanded="true" />
-            <element signature="e#23156#23157#0" expanded="true" />
-            <element signature="e#23207#23208#0" expanded="true" />
-            <element signature="e#23515#23516#0" expanded="true" />
-            <element signature="e#23566#23567#0" expanded="true" />
-            <element signature="e#23874#23875#0" expanded="true" />
-            <element signature="e#23925#23926#0" expanded="true" />
-            <element signature="e#24233#24234#0" expanded="true" />
-            <element signature="e#24284#24285#0" expanded="true" />
-            <element signature="e#29047#29048#0" expanded="true" />
-            <element signature="e#29098#29099#0" expanded="true" />
-            <element signature="e#29406#29407#0" expanded="true" />
-            <element signature="e#29457#29458#0" expanded="true" />
-            <element signature="e#29765#29766#0" expanded="true" />
-            <element signature="e#29816#29817#0" expanded="true" />
-            <element signature="e#30124#30125#0" expanded="true" />
-            <element signature="e#30175#30176#0" expanded="true" />
-            <element signature="e#30483#30484#0" expanded="true" />
-            <element signature="e#30534#30535#0" expanded="true" />
-            <element signature="e#30842#30843#0" expanded="true" />
-            <element signature="e#30893#30894#0" expanded="true" />
-            <element signature="e#31201#31202#0" expanded="true" />
-            <element signature="e#31252#31253#0" expanded="true" />
-            <element signature="e#31560#31561#0" expanded="true" />
-            <element signature="e#31611#31612#0" expanded="true" />
-            <element signature="e#31919#31920#0" expanded="true" />
-            <element signature="e#31970#31971#0" expanded="true" />
-            <element signature="e#36733#36734#0" expanded="true" />
-            <element signature="e#36784#36785#0" expanded="true" />
-            <element signature="e#37092#37093#0" expanded="true" />
-            <element signature="e#37143#37144#0" expanded="true" />
-            <element signature="e#37451#37452#0" expanded="true" />
-            <element signature="e#37502#37503#0" expanded="true" />
-            <element signature="e#37810#37811#0" expanded="true" />
-            <element signature="e#37861#37862#0" expanded="true" />
-            <element signature="e#38169#38170#0" expanded="true" />
-            <element signature="e#38220#38221#0" expanded="true" />
-            <element signature="e#38528#38529#0" expanded="true" />
-            <element signature="e#38579#38580#0" expanded="true" />
-            <element signature="e#38887#38888#0" expanded="true" />
-            <element signature="e#38938#38939#0" expanded="true" />
-            <element signature="e#39246#39247#0" expanded="true" />
-            <element signature="e#39297#39298#0" expanded="true" />
-            <element signature="e#39605#39606#0" expanded="true" />
-            <element signature="e#39656#39657#0" expanded="true" />
-            <element signature="e#44419#44420#0" expanded="true" />
-            <element signature="e#44470#44471#0" expanded="true" />
-            <element signature="e#44778#44779#0" expanded="true" />
-            <element signature="e#44829#44830#0" expanded="true" />
-            <element signature="e#45137#45138#0" expanded="true" />
-            <element signature="e#45188#45189#0" expanded="true" />
-            <element signature="e#45496#45497#0" expanded="true" />
-            <element signature="e#45547#45548#0" expanded="true" />
-            <element signature="e#45855#45856#0" expanded="true" />
-            <element signature="e#45906#45907#0" expanded="true" />
-            <element signature="e#46214#46215#0" expanded="true" />
-            <element signature="e#46265#46266#0" expanded="true" />
-            <element signature="e#46573#46574#0" expanded="true" />
-            <element signature="e#46624#46625#0" expanded="true" />
-            <element signature="e#46932#46933#0" expanded="true" />
-            <element signature="e#46983#46984#0" expanded="true" />
-            <element signature="e#47291#47292#0" expanded="true" />
-            <element signature="e#47342#47343#0" expanded="true" />
-            <element signature="e#51911#51912#0" expanded="true" />
-            <element signature="e#51962#51963#0" expanded="true" />
-            <element signature="e#52270#52271#0" expanded="true" />
-            <element signature="e#52321#52322#0" expanded="true" />
-            <element signature="e#52629#52630#0" expanded="true" />
-            <element signature="e#52680#52681#0" expanded="true" />
-            <element signature="e#52988#52989#0" expanded="true" />
-            <element signature="e#53039#53040#0" expanded="true" />
-            <element signature="e#53347#53348#0" expanded="true" />
-            <element signature="e#53398#53399#0" expanded="true" />
-            <element signature="e#53706#53707#0" expanded="true" />
-            <element signature="e#53757#53758#0" expanded="true" />
-            <element signature="e#54065#54066#0" expanded="true" />
-            <element signature="e#54116#54117#0" expanded="true" />
-            <element signature="e#54424#54425#0" expanded="true" />
-            <element signature="e#54475#54476#0" expanded="true" />
-            <element signature="e#54783#54784#0" expanded="true" />
-            <element signature="e#54834#54835#0" expanded="true" />
-            <element signature="e#59597#59598#0" expanded="true" />
-            <element signature="e#59648#59649#0" expanded="true" />
-            <element signature="e#59956#59957#0" expanded="true" />
-            <element signature="e#60007#60008#0" expanded="true" />
-            <element signature="e#60315#60316#0" expanded="true" />
-            <element signature="e#60366#60367#0" expanded="true" />
-            <element signature="e#60674#60675#0" expanded="true" />
-            <element signature="e#60725#60726#0" expanded="true" />
-            <element signature="e#61033#61034#0" expanded="true" />
-            <element signature="e#61084#61085#0" expanded="true" />
-            <element signature="e#61392#61393#0" expanded="true" />
-            <element signature="e#61443#61444#0" expanded="true" />
-            <element signature="e#61751#61752#0" expanded="true" />
-            <element signature="e#61802#61803#0" expanded="true" />
-            <element signature="e#62110#62111#0" expanded="true" />
-            <element signature="e#62161#62162#0" expanded="true" />
-            <element signature="e#62469#62470#0" expanded="true" />
-            <element signature="e#62520#62521#0" expanded="true" />
-            <element signature="e#67284#67285#0" expanded="true" />
-            <element signature="e#67335#67336#0" expanded="true" />
-            <element signature="e#67643#67644#0" expanded="true" />
-            <element signature="e#67694#67695#0" expanded="true" />
-            <element signature="e#68002#68003#0" expanded="true" />
-            <element signature="e#68053#68054#0" expanded="true" />
-            <element signature="e#68361#68362#0" expanded="true" />
-            <element signature="e#68412#68413#0" expanded="true" />
-            <element signature="e#68720#68721#0" expanded="true" />
-            <element signature="e#68771#68772#0" expanded="true" />
-            <element signature="e#69079#69080#0" expanded="true" />
-            <element signature="e#69130#69131#0" expanded="true" />
-            <element signature="e#69438#69439#0" expanded="true" />
-            <element signature="e#69489#69490#0" expanded="true" />
-            <element signature="e#69797#69798#0" expanded="true" />
-            <element signature="e#69848#69849#0" expanded="true" />
+            <element signature="e#79441#79442#0" expanded="true" />
+            <element signature="e#79501#79502#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sudoku2/Sudoku2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="149" column="5" lean-forward="true" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
+        <state relative-caret-position="297">
+          <caret line="131" column="27" lean-forward="true" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="27" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#setupSudoku#0;class#Sudoku2#0" />
+            <element signature="method#resuelve#0;class#Sudoku2#0" />
+            <element signature="method#getMarkup#0;class#Sudoku2#0" />
             <element signature="method#muestraTablero#0;class#Sudoku2#0" />
+            <element signature="method#actualizaConjuntos#0;class#Sudoku2#0" />
           </folding>
         </state>
       </provider>

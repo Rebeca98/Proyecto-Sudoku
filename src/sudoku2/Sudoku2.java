@@ -6,7 +6,10 @@
 package sudoku2;
 
 
+import javax.swing.*;
+import java.awt.*;
 import java.util.Iterator;
+import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -16,20 +19,37 @@ public class Sudoku2 {
 
     //TODO: Volver todas las cosas iterativas, recursivas.
     private static final int ASCII_INITIAL_VALUE = 65;
+    public static final String ANSI_RED = "\u001B[31m";
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_BLUE = "\u001B[34m";
+    public static final String ANSI_YELLOW = "\u001B[33m";
+
     private static final int dim = 9;
 
     public static int[][] matrizMaestra = new int[9][9];
 
     public static int[][] sudokuOne = new int[][]{
-            {7,5,0,9,0,3,0,0,6},
             {0,0,0,0,0,0,0,0,0},
-            {0,0,0,4,5,0,0,0,3},
-            {6,2,0,0,9,0,8,0,0},
-            {0,1,5,0,0,0,2,3,0},
-            {0,0,9,0,1,0,0,7,5},
-            {3,0,0,0,8,4,0,0,0},
-            {0,0,0,0,0,0,0,0,0},
-            {9,0,0,6,0,0,0,5,7}
+            {0,0,0,0,0,3,0,8,5},
+            {0,0,1,0,2,0,0,0,0},
+            {0,0,0,5,0,7,0,0,0},
+            {0,0,4,0,0,0,1,0,0},
+            {0,9,0,0,0,0,0,0,0},
+            {5,0,0,0,0,0,0,7,3},
+            {0,0,2,0,1,0,0,0,0},
+            {0,0,0,0,4,0,0,0,9}
+    };
+
+    public static int[][] sudokuTwo = new int[][]{
+            {7,9,0,0,0,0,3,0,0},
+            {0,0,0,0,0,6,9,0,0},
+            {8,0,0,0,3,0,0,7,6},
+            {0,0,0,0,0,5,0,0,2},
+            {0,0,5,4,1,8,7,0,0},
+            {4,0,0,7,0,0,0,0,0},
+            {6,1,0,0,9,0,0,0,8},
+            {0,0,2,3,0,0,0,0,0},
+            {0,0,9,0,0,0,0,5,4}
     };
 
     public static SetADT[][] matrizGrande = new SetADT[][]{
@@ -53,10 +73,6 @@ public class Sudoku2 {
         UI.main(args);
         setupSudoku();
 
-        System.out.println("Resulución: \n \n  ");
-        muestraTablero(matrizMaestra);
-        resuelve(matrizMaestra,0,0);
-        muestraTablero(matrizMaestra);
     }
 
     /**
@@ -85,7 +101,9 @@ public class Sudoku2 {
         ArraySet<Integer> prohibidos = new ArraySet<>();
         prohibidos.addAll(tempFila,tempColumna,tempCuadrote);
 
-        if (value != pastVal && !prohibidos.contains(value)){//Distinto de anterior y no contenido en prohibidos
+        System.out.println(ANSI_YELLOW + "Invocacion a metodo de actualización. " + tempFila.toString() + col + " valor pasado: " + pastVal + ANSI_RESET);
+
+        if ( !prohibidos.contains(value) || value == 0){//Distinto de anterior y no contenido en prohibidos
             //Eliminando valor anterior antes de agregar nuevo valor
             try{
                 tempFila.remove(pastVal);
@@ -100,12 +118,29 @@ public class Sudoku2 {
             mat[row][col] = value;
 
             //Actualizando conjuntos
-            System.out.println("Actualizando " + tempFila.toString() + tempColumna.toString() +":"
-                    + " con valor " + value);
+            System.out.println(ANSI_YELLOW + "Actualizando " + tempFila.toString() + tempColumna.toString() +":"
+                    + " con valor " + value  + "\n"+ ANSI_RESET);
 
             tempFila.add(value);
             tempColumna.add(value);
             tempCuadrote.add(value);
+
+            //Actualizando UI
+
+            String objName = tempFila.toString() + tempColumna.toString();
+            JTextField cuadroUI = UI.mapa.get(objName);
+            if(value != 0){
+                cuadroUI.setBackground(Color.WHITE);
+                cuadroUI.setText(String.valueOf(value));
+            }else{
+                cuadroUI.setBackground(Color.RED);
+                cuadroUI.setText(" ");
+                try {
+                    TimeUnit.MILLISECONDS.sleep(500);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
 
             return true;
         }else{
@@ -134,14 +169,12 @@ public class Sudoku2 {
             columnas[num] = new ArraySet<Integer>( String.valueOf(num+1));
         }
 
-        /*
         //Poblando Matriz de valores. Se llena con ceros inicialmente.
         for(int row=0; row<9; row++){
             for (int col=0; col<9; col++){
                 matrizMaestra[row][col] = 0;
             }
         }
-*/
 
         for (int refVal=1; refVal < 10; refVal++){
             REFERENCIA.add(refVal);
@@ -150,25 +183,34 @@ public class Sudoku2 {
     }
 
     public static boolean resuelve(int[][] sudo, int row, int col){
-        System.out.println("Parado en " + row + (col+1)  );
         boolean brinca = col + 1 < dim;
+        System.out.println(ANSI_BLUE +  "Casilla actual: " + ((char)(row+ASCII_INITIAL_VALUE)) + (col+1) + " y " + !brinca + " debo brincar" + ANSI_RESET);
 
         if (row >= dim){
+            System.out.println("LLegamos al final de la matriz. Se regresa True");
             return true;
         }else if(sudo[row][col] != 0) {
-            return  resuelve(sudo, col+1<dim ? row:row+1 , col+1<dim ? col+1:0 );
+            System.out.println("Estoy en " + ((char)(row+ASCII_INITIAL_VALUE)) + (col+1) + " y econtre el valor " + sudo[row][col] );
+            return  resuelve(sudo, brinca ? row:row+1 , brinca ? col+1:0 );
         }else{
             SetADT markup = getMarkup(row,col);
             Iterator iter = markup.iterator();
 
+            System.out.println("Estoy en " + ((char)(row+ASCII_INITIAL_VALUE)) + (col+1) + " y hay un cero. Posibles sol: " + markup.listItems() );
+
             while (iter.hasNext()){
                 int candidate = (int) iter.next();
+                System.out.println("Probare con el numero " + candidate + " en " + ((char)(row+ASCII_INITIAL_VALUE)) + (col+1) );
                 actualizarValorEnCuadro(sudo,row,col,candidate);
 
-                if (resuelve(sudo, col+1<dim ? row:row+1 , col+1<dim ? col+1:0 )) return true;
+                if (resuelve(sudo, brinca ? row:row+1 , brinca ? col+1:0 )){
+                    return true;
+                }
+                System.out.println(ANSI_RED + "Colocando un cero en: " + ((char)(row+ASCII_INITIAL_VALUE)) + (col+1) + ANSI_RESET);
                 actualizarValorEnCuadro(sudo,row,col,0);
             }
-            System.out.println("Backtracking");
+            System.out.println("Ningun valor probado funcionó. Regresando false y backtraqueando. Casilla actual "+
+                    ((char)(row+ASCII_INITIAL_VALUE)) + (col+1) + "\n");
             return false;
         }
     }
@@ -209,5 +251,22 @@ public class Sudoku2 {
 
     }
 
+    public static void iniciaResolucion(int[][] mat){
+        actualizaConjuntos(mat);
+
+        System.out.println("Resulución: \n \n  ");
+        muestraTablero(mat);
+        resuelve(mat,0,0);
+        muestraTablero(mat);
+    }
+
+    private static void actualizaConjuntos(int[][] mat ){
+        for (int row=0; row<9 ; row++){
+            for (int col=0; col<9; col++){
+                int curval = mat[row][col];
+                actualizarValorEnCuadro(mat,row,col,curval);
+            }
+        }
+    }
 
 }
